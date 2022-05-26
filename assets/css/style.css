@@ -274,7 +274,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 100px;
 }
 #hero p {
-  color: rgb(236, 236, 236);
+  color: #fff;
   margin: 15px 0 0 0;
   font-size: 40px;
   line-height: 1;
@@ -1108,4 +1108,34 @@ section {
 }
 #footer .credits {
   font-size: 13px;
+}
+
+
+/*--------------------------------------------------------------
+# Colors
+--------------------------------------------------------------*/
+
+.bg-teal{
+  background-color: #11dbcf;
+}
+.bg-green{
+  background-color: #09af00;
+}
+.bg-purple{
+  background-color: #9000ff;
+}
+.bg-red{
+  background-color: #ff5828;
+}
+.bg-pink{
+  background-color: #e80368;
+}
+.bg-yellow{
+  background-color: #ffbb2c;
+}
+.bg-orange{
+  background-color: #ff9100;
+}
+.bg-blue{
+  background-color: #47aeff;
 }
