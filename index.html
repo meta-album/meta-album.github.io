@@ -60,8 +60,8 @@
         <li><a href="#about" class="nav-link scrollto"><i class="fa-solid fa-circle-info"></i> <span>About</span></a></li>
         <li><a href="#datasets" class="nav-link scrollto"><i class="fa-solid fa-table-list"></i> <span>Datasets</span></a></li>
         <li><a href="#gallery" class="nav-link scrollto"><i class="fa-solid fa-images"></i> <span>Gallery</span></a></li>
-        <li><a href="#partners" class="nav-link scrollto"><i class="fa-solid fa-handshake"></i> <span>Partners</span></a></li>
         <li><a href="#citation" class="nav-link scrollto"><i class="fa-solid fa-quote-left"></i> <span>Citation</span></a></li>
+        <li><a href="#partners" class="nav-link scrollto"><i class="fa-solid fa-handshake"></i> <span>Partners</span></a></li>
         <li><a href="#contact" class="nav-link scrollto"><i class="fa-solid fa-address-book"></i> <span>Contact</span></a></li>
       </ul>
     </nav><!-- .nav-menu -->
@@ -252,7 +252,7 @@
     </section><!-- End About Section -->
 
     <!-- ======= Datasets Section ======= -->
-    <section id="datasets" class="  ">
+    <section id="datasets" class="services">
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
@@ -266,85 +266,68 @@
             <li>Meta Album mini = same as Meta Album extended, but we randomly sampled only 40 examples for each class (hence the dataset are class-balanced)</li>
           </ol>
         </div>
-
+        
+        
         <div class="row">
-          <div class="col-lg-2"></div>
-          <div class="table-responsive col-lg-8">
-            <table class="table table-hover">
+          <div class="col-lg-1"></div>
+          <div class="table-responsive col-lg-10">
+            <table class="table caption-top">
+              <caption>Datasets Set-1, realese data: 06 June 2022</caption>
+
               <thead>
                 <tr>
-                  <th scope="col">Meta Album ID</th>
-                  <th scope="col">Domain</th>
-                  <th scope="col">Dataset</th>
-                  <th scope="col"># Classes</th>
+                  <th scope="col">Meta Album ID</th><th scope="col">Domain</th><th scope="col">Original Dataset</th><th scope="col"># Classes</th><th scope="col"># Images</th><th scope="col">More</th>
                 </tr>
               </thead>
+
               <tbody>
                 <tr>
                   <th scope="row">LR_AM.BRD</th>
-                  <td>Large Animals</td>
-                  <td>Birds</td>
-                  <td>315</td>
+                  <td>Large Animals</td><td>Birds</td><td>315</td><td>49,054</td><td><a class="btn btn-sm btn-outline-dark" target="_blank" href="datasets/set0/BRD.html">Details <i class="fa-solid fa-circle-arrow-right"></i></a></td>
                 </tr>
                 <tr>
                   <th scope="row">SM_AM.PLK</th>
-                  <td>Small Animals</td>
-                  <td>Plankton</td>
-                  <td>86</td>
+                  <td>Small Animals</td><td>Plankton</td><td>102</td><td>473,273</td><td><a class="btn btn-sm btn-outline-dark" target="_blank" href="datasets/set0/PLK.html">Details <i class="fa-solid fa-circle-arrow-right"></i></a></td>
                 </tr>
                 <tr>
                   <th scope="row">PLT.FLW</th>
-                  <td>Plants</td>
-                  <td>Flowers</td>
-                  <td>102</td>
+                  <td>Plants</td><td>Flowers</td><td>102</td><td>8,189</td><td><a class="btn btn-sm btn-outline-dark" target="_blank" href="datasets/set0/FLW.html">Details <i class="fa-solid fa-circle-arrow-right"></i></a></td>
                 </tr>
                 <tr>
                   <th scope="row">PLT_DIS.PLT_VIL</th>
-                  <td>Plant Diseases</td>
-                  <td>Plant Village</td>
-                  <td>38</td>
+                  <td>Plant Diseases</td><td>Plant Village</td><td>38</td><td>54,305</td><td><a class="btn btn-sm btn-outline-dark" target="_blank" href="datasets/set0/PLT_VIL.html">Details <i class="fa-solid fa-circle-arrow-right"></i></a></td>
                 </tr>
                 <tr>
                   <th scope="row">MCR.BCT</th>
-                  <td>Microscopy</td>
-                  <td>Bacteria</td>
-                  <td>33</td>
+                  <td>Microscopy</td><td>Bacteria</td><td>33</td><td>4,060</td><td><a class="btn btn-sm btn-outline-dark" target="_blank" href="datasets/set0/BCT.html">Details <i class="fa-solid fa-circle-arrow-right"></i></a></td>
                 </tr>
                 <tr>
                   <th scope="row">REM_SEN.RESISC</th>
-                  <td>Remote Sensing</td>
-                  <td>RESISC</td>
-                  <td>45</td>
+                  <td>Remote Sensing</td><td>RESISC</td><td>45</td><td>31,500<td><a class="btn btn-sm btn-outline-dark" target="_blank" href="datasets/set0/RESISC.html">Details <i class="fa-solid fa-circle-arrow-right"></i></a></td>
                 </tr>
                 <tr>
                   <th scope="row">VCL.CRS</th>
-                  <td>Vehicles</td>
-                  <td>Cars</td>
-                  <td>196</td>
+                  <td>Vehicles</td><td>Cars</td><td>196</td><td>16,185</td><td><a class="btn btn-sm btn-outline-dark" target="_blank" href="datasets/set0/CRS.html">Details <i class="fa-solid fa-circle-arrow-right"></i></a></td>
                 </tr>
                 <tr>
                   <th scope="row">MNF.TEX</th>
-                  <td>Manufacturing</td>
-                  <td>Textures</td>
-                  <td>64</td>
+                  <td>Manufacturing</td><td>Textures</td><td>64</td><td>8,675</td><td><a class="btn btn-sm btn-outline-dark" target="_blank" href="datasets/set0/TEX.html">Details <i class="fa-solid fa-circle-arrow-right"></i></a></td>
                 </tr>
                 <tr>
                   <th scope="row">HUM_ACT.SPT</th>
-                  <td>Human Actions</td>
-                  <td>73 Sports</td>
-                  <td>73</td>
+                  <td>Human Actions</td><td>73 Sports</td><td>73</td><td>10,416</td><td><a class="btn btn-sm btn-outline-dark" target="_blank" href="datasets/set0/SPT.html">Details <i class="fa-solid fa-circle-arrow-right"></i></a></td>
                 </tr>
                 <tr>
                   <th scope="row">OCR.MD_MIX</th>
-                  <td>OCR</td>
-                  <td>Omniprint-MD-mix</td>
-                  <td>706</td>
+                  <td>OCR</td><td>Omniprint-MD-mix</td><td>706</td><td>28,240</td><td><a class="btn btn-sm btn-outline-dark" target="_blank" href="datasets/set0/MD_MIX.html">Details <i class="fa-solid fa-circle-arrow-right"></i></a></td>
                 </tr>
                 
               </tbody>
             </table>
           </div>
         </div>
+
+        
 
         
         
@@ -412,7 +395,42 @@
       </div>
     </section><!-- End Gallery Section -->
 
+    <!-- ======= Citation Section ======= -->
+    <section id="citation" class="contact">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Citation</h2>
+          <p>If you are using Meta Album, cite our paper as mentioned below:</p>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-1"></div>
+          <div class="col-lg-10">
+            <pre class="pt-4  bg-light rounded">
+  @inproceedings{meta-album-2022,
+    author = {Ihsan Ullah},
+    booktitle = {Submitted to: Proceedings of the Neural Information Processing Systems Track on Datasets and Benchmarks},
+    title = {Meta-Album: Multi-domain Meta-Dataset for Few-Shot Image Classification},
+    url = {https://meta-album.github.io/},
+    year = {2022}
+  }
+            </pre>
+          <a class="btn btn-outline-dark" target="_blank" href="assets/files/meta-album.bib" download="meta-album.bib"><i class="fa-solid fa-file-arrow-down"></i> Download as bib</a>
+          </div>
+          
+
   
+        </div>
+
+          
+
+        </div>
+
+      </div>
+    </section><!-- End Citation Section -->
+      
 
     <!-- ======= Partners Section ======= -->
     <section id="partners" class="contact">
@@ -469,41 +487,7 @@
       </div>
     </section><!-- End Partners Section -->
 
-    <!-- ======= Citation Section ======= -->
-    <section id="citation" class="contact">
-      <div class="container" data-aos="fade-up">
 
-        <div class="section-title">
-          <h2>Citation</h2>
-          <p>If you are using Meta Album, cite our paper as mentioned below:</p>
-        </div>
-
-        <div class="row">
-
-          <div class="col-lg-1"></div>
-          <div class="col-lg-10">
-            <pre class="pt-4  bg-light rounded">
-  @inproceedings{meta-album-2022,
-    author = {Ihsan Ullah},
-    booktitle = {Submitted to: Proceedings of the Neural Information Processing Systems Track on Datasets and Benchmarks},
-    title = {Meta-Album: Multi-domain Meta-Dataset for Few-Shot Image Classification},
-    url = {https://meta-album.github.io/},
-    year = {2022}
-  }
-            </pre>
-          <a class="btn btn-outline-dark" target="_blank" href="assets/files/meta-album.bib" download="meta-album.bib"><i class="fa-solid fa-file-arrow-down"></i> Download as bib</a>
-          </div>
-          
-
-  
-        </div>
-
-          
-
-        </div>
-
-      </div>
-    </section><!-- End Citation Section -->
 
     <!-- ======= Contact Section ======= -->
     <section id="contact" class="contact">
