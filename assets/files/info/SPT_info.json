@@ -1,0 +1,46 @@
+{
+    "id" : "HUM_ACT.SPT",
+    "domain_id" : "HUM_ACT",
+    "domain_name" : "Human Actions",
+    "dataset_id" : "SPT",
+    "dataset_name" : "Sports Actions",
+    "dataset_description" : "73 Sports Dataset",
+    "keywords" : "human actions, sports",
+    "data_format": "images",
+    "image_size": "128x128",
+    "license" : "CC0 1.0 Public Domain",
+    "license_url" : [
+        "https://www.kaggle.com/gpiosenka/sports-classification",
+        "https://creativecommons.org/publicdomain/zero/1.0/"
+    ],
+    "license_details" : "",
+    "source" : "100 Sports Image Classification",
+    "source_url" : ["https://www.kaggle.com/gpiosenka/sports-classification"],
+    "original_author": "Gerry",
+    "original_contact" : "https://www.kaggle.com/gpiosenka/contact",
+    "citation" : "SPT.bib",
+    "meta-album_author": "Jilin He",
+    "has_super_categories" : false,
+    "mini_version" : {
+        "total_super_categories": 0,
+        "total_categories_mini": 73,
+        "uniform_number_of_images_per_category": true,
+        "minimum_images_per_category": 40,
+        "median_images_per_category": 40,
+        "maximum_images_per_category": 40,
+        "total_images": 2920
+    },
+    "extended_version" : {
+        "total_super_categories": 0,
+        "total_categories": 73,
+        "uniform_number_of_images_per_category": false,
+        "minimum_images_per_category" : 99, 
+        "median_images_per_category" : 141,
+        "maximum_images_per_category" : 191, 
+        "total_images": 10416
+    },
+    "date_created" : "01 March 2022",
+    "contact_name" : "Ihsan Ullah",
+    "contact_email" : "meta-album@chalearn.org",
+    "contact_url" : "https://meta-album.github.io/"
+}

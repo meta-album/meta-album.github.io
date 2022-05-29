@@ -1,0 +1,43 @@
+{
+    "id" : "VCL.CRS",
+    "domain_id" : "VCL",
+    "domain_name" : "Vehicles",
+    "dataset_id" : "CRS",
+    "dataset_name" : "Cars",
+    "dataset_description" : "Dataset with images of different car models",
+    "keywords" : "vehicles, cars",
+    "data_format": "images",
+    "image_size": "128x128",
+    "license" : "Same as ImageNet License",
+    "license_url" : ["https://ai.stanford.edu/~jkrause/cars/car_dataset.html"],
+    "license_details" : "",
+    "source" : "Stanford Cars Dataset",
+    "source_url" : ["https://ai.stanford.edu/~jkrause/cars/car_dataset.html"],
+    "original_author": "Jonathan Krause, Michael Stark, Jia Deng, Li Fei-Fei",
+    "original_contact" : "jkrause@cs.stanford.edu",
+    "citation" : "CRS.bib",
+    "meta-album_author": "Philip Boser",
+    "has_super_categories" : false,
+    "mini_version" : {
+        "total_super_categories": 0,
+        "total_categories_mini": 196,
+        "uniform_number_of_images_per_category": true,
+        "minimum_images_per_category": 40,
+        "median_images_per_category": 40,
+        "maximum_images_per_category": 40,
+        "total_images": 7840
+    },
+    "extended_version" : {
+        "total_super_categories": 0,
+        "total_categories": 196,
+        "uniform_number_of_images_per_category": false,
+        "minimum_images_per_category" : 48, 
+        "median_images_per_category" : 84,
+        "maximum_images_per_category" : 136, 
+        "total_images": 16185
+    },
+    "date_created" : "01 March 2022",
+    "contact_name" : "Ihsan Ullah",
+    "contact_email" : "meta-album@chalearn.org",
+    "contact_url" : "https://meta-album.github.io/"
+}

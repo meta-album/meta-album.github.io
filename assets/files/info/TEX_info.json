@@ -1,0 +1,49 @@
+{
+    "id" : "MNF.TEX",
+    "domain_id" : "MNF",
+    "domain_name" : "Manufacturing",
+    "dataset_id" : "TEX",
+    "dataset_name" : "Textures",
+    "dataset_description" : "Textures dataset from KTH-TIPS, Kylberg and UIUC",
+    "keywords" : "textures, manufacturing",
+    "data_format": "images",
+    "image_size": "128x128",
+    "license" : "CC BY NC 4.0, public for research, cite paper to use dataset",
+    "license_url" : [
+        "https://creativecommons.org/licenses/by-nc/4.0/",
+        "https://kylberg.org/wp-content/uploads/2020/05/KylbergTextureDocumentation-1.0.pdf"
+    ],
+    "license_details" : "KTH-TIPS: Email confirmation, Kylberg: Public for research, UIUC: Email confirmation -- cite paper to use dataset",
+    "source" : "KTH-TIPS, Kylberg, UIUC",
+    "source_url" : [
+        "https://www.csc.kth.se/cvap/databases/kth-tips/index.html", 
+        "https://www.cb.uu.se/~gustaf/texture/"
+    ],
+    "original_author": "Eric Hayman, Barbara Caputo, Mario Fritz, P. Mallikarjuna, Alireza Tavakoli Targhi, Jean Ponce, Gustaf Kylberg, Svetlana Lazebnik, Cordelia Schmid",
+    "original_contact" : "KTH-TIPS: hayman@nada.kth.se, Kylberg: gustaf.kylberg@gmail.com, UIUC: Jean.Ponce@inria.fr",
+    "citation" : "TEX.bib",
+    "meta-album_author": "Ihsan Ullah",
+    "has_super_categories" : false,
+    "mini_version" : {
+        "total_super_categories": 0,
+        "total_categories_mini": 64,
+        "uniform_number_of_images_per_category": true,
+        "minimum_images_per_category": 40,
+        "median_images_per_category": 40,
+        "maximum_images_per_category": 40,
+        "total_images": 2560
+    },
+    "extended_version" : {
+        "total_super_categories": 0,
+        "total_categories": 64,
+        "uniform_number_of_images_per_category": false,
+        "minimum_images_per_category" : 40, 
+        "median_images_per_category" : 160,
+        "maximum_images_per_category" : 513, 
+        "total_images": 8675
+    },
+    "date_created" : "01 March 2022",
+    "contact_name" : "Ihsan Ullah",
+    "contact_email" : "meta-album@chalearn.org",
+    "contact_url" : "https://meta-album.github.io/"
+}

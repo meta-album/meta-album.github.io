@@ -1,0 +1,37 @@
+{
+    "id" : "OCR.MD_MIX",
+    "domain_id" : "OCR",
+    "domain_name" : "Optical Character Recognition",
+    "dataset_id" : "MD_MIX",
+    "dataset_name" : "OmniPrint-MD-mix",
+    "dataset_description" : "Character images with mixed styles",
+    "keywords" : "ocr",
+    "data_format": "images",
+    "image_size": "128x128",
+    "license" : "CC BY 4.0",
+    "license_url" : [
+        "https://github.com/SunHaozhe/OmniPrint/blob/master/LICENSE",
+        "https://creativecommons.org/licenses/by/4.0/"
+    ],
+    "license_detaills" : "",
+    "source" : "OmniPrint",
+    "source_url" : ["https://github.com/SunHaozhe/OmniPrint"],
+    "original_author": "Haozhe Sun",
+    "original_contact" : "sunhaozhe275940200@gmail.com",
+    "citation" : "MD_MIX.bib",
+    "meta-album_author": "Haozhe Sun",
+    "has_super_categories" : true,
+    "mini_version" : {
+        "total_super_categories": 23,
+        "total_categories_mini": 706,
+        "uniform_number_of_images_per_category": true,
+        "minimum_images_per_category": 40,
+        "median_images_per_category": 40,
+        "maximum_images_per_category": 40,
+        "total_images": 28240
+    },
+    "date_created" : "01 March 2022",
+    "contact_name" : "Haozhe Sun",
+    "contact_email" : "meta-album@chalearn.org",
+    "contact_url" : "https://meta-album.github.io/"
+}

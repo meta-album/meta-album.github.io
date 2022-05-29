@@ -1,0 +1,43 @@
+{
+    "id" : "PLT.FLW",
+    "domain_id" : "PLT",
+    "domain_name" : "Plants",
+    "dataset_id" : "FLW",
+    "dataset_name" : "Flowers",
+    "dataset_description" : "Flowers dataset from Visual Geometry Group, University of Oxford",
+    "keywords" : "flowers, ecology, plants",
+    "data_format": "images",
+    "image_size": "128x128",
+    "license" : "GNU General Public License Version 2",
+    "license_url" : ["https://peltarion.com/knowledge-center/documentation/terms/dataset-licenses/oxford-102-category-flowers"],
+    "license_details" : "",
+    "source" : "Visual Geometry Group, University of Oxford, England",
+    "source_url" : ["https://www.robots.ox.ac.uk/~vgg/data/flowers/"],
+    "original_author": "Maria-Elena Nilsback,  Andrew Zisserman",
+    "original_contact" : "{men,az}@robots.ox.ac.uk",
+    "citation" : "FLW.bib",
+    "meta-album_author": "Ihsan Ullah",
+    "has_super_categories" : false,
+    "mini_version" : {
+        "total_super_categories": 0,
+        "total_categories_mini": 102,
+        "uniform_number_of_images_per_category": true,
+        "minimum_images_per_category": 40,
+        "median_images_per_category": 40,
+        "maximum_images_per_category": 40,
+        "total_images": 4080
+    },
+    "extended_version" : {
+        "total_super_categories": 0,
+        "total_categories": 102,
+        "uniform_number_of_images_per_category": false,
+        "minimum_images_per_category" : 40, 
+        "median_images_per_category" : 66,
+        "maximum_images_per_category" : 258, 
+        "total_images": 8189
+    },
+    "date_created" : "01 March 2022",
+    "contact_name" : "Ihsan Ullah",
+    "contact_email" : "meta-album@chalearn.org",
+    "contact_url" : "https://meta-album.github.io/"
+}

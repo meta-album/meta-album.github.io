@@ -34,7 +34,7 @@
   
           <!-- Page Title -->
           <div class="section-title">
-            <h2>Bacteria Dataset </h2>
+            <h2>DIBaS Dataset</h2>
           </div>
 
           <!-- Table Title -->
@@ -52,7 +52,7 @@
             <div class="col-lg-2"></div>
             <div class="table-responsive col-lg-8">
                 <table class="table caption-top">
-                  <caption>Last updated: 27 May 2022</caption>
+                  <caption>Last updated: 29 May 2022</caption>
 
                   <tbody>
                     
@@ -61,24 +61,32 @@
                       <td>MCR.BCT</td>
                     </tr>
                     <tr>
-                      <th scope="row">Domain Name</th>
-                      <td>Microscopy</td>
-                    </tr>
-                    <tr>
                       <th scope="row">Domain ID</th>
                       <td>MCR</td>
                     </tr>
                     <tr>
-                      <th scope="row">Dataset Name</th>
-                      <td>Bacteria</td>
+                      <th scope="row">Domain Name</th>
+                      <td>Microscopic</td>
                     </tr>
                     <tr>
                       <th scope="row">Dataset ID</th>
                       <td>BCT</td>
                     </tr>
                     <tr>
+                      <th scope="row">Dataset Name</th>
+                      <td>DIBaS</td>
+                    </tr>
+                    <tr>
                       <th scope="row">Description</th>
                       <td>Digital Image of Bacterial Species (DIBaS)</td>
+                    </tr>
+                    <tr>
+                      <th scope="row"># Classes</th>
+                      <td>33</td>
+                    </tr>
+                    <tr>
+                      <th scope="row"># Images</th>
+                      <td>4060</td>
                     </tr>
                     <tr>
                       <th scope="row">Keywords</th>
@@ -90,16 +98,18 @@
                     </tr>
                     <tr>
                       <th scope="row">Image size</th>
-                      <td>128z128</td>
+                      <td>128x128</td>
                     </tr>
-                    <tr>
-                      <th scope="row">License</th>
-                      <td>-</td>
-                    </tr>
+                    
+
+                    
                     <tr>
                       <th scope="row">License URL</th>
-                      <td>-</td>
+                      <td>
+                        
+                      </td>
                     </tr>
+                    
                     <tr>
                       <th scope="row">Source</th>
                       <td>Digital Image of Bacterial Species (DIBaS)</td>
@@ -107,9 +117,11 @@
                     <tr>
                       <th scope="row">Source URL</th>
                       <td>
-                        <a target="_blank" href="http://misztal.edu.pl/software/databases/dibas/">http://misztal.edu.pl/software/databases/dibas/</a> <br> 
                         
-                        <a target="_blank" href="https://github.com/gallardorafael/DIBaS-Dataset">https://github.com/gallardorafael/DIBaS-Dataset</a>
+                        <a target="_blank" href="http://misztal.edu.pl/software/databases/dibas/">http://misztal.edu.pl/software/databases/dibas/</a> <br>
+                        
+                        <a target="_blank" href="https://github.com/gallardorafael/DIBaS-Dataset">https://github.com/gallardorafael/DIBaS-Dataset</a> <br>
+                        
                       </td>
                     </tr>
                     <tr>
@@ -151,6 +163,26 @@
           </div>
 
 
+          <!-- Download Meta-data Title -->
+          <div class="row mt-5">
+            <div class="col-lg-2"></div>
+            <div class="col-lg-6">
+              <h3>Download Meta-data file</h3>
+            </div>
+          </div>
+
+          <!-- Download -->
+          <div class="row">
+
+            <div class="col-lg-2"></div>
+            <div class="col-lg-6 col-md-6">
+
+              <a class="btn btn-lg btn-outline-dark" target="_blank" href="../../assets/files/info/BCT_info.json" download="BCT_info.json"><i class="fa-solid fa-file-arrow-down"></i> Dataset Info</a>
+            
+            </div>
+          </div>
+
+
           <!-- Download Title -->
           <div class="row mt-5">
             <div class="col-lg-2"></div>
@@ -165,9 +197,9 @@
             <div class="col-lg-2"></div>
             <div class="col-lg-6 col-md-6">
 
-              <a class="btn btn-sm btn-outline-dark" target="_blank" href="#"><i class="fa-solid fa-download"></i> Mini</a>
+              <a class="btn btn-lg btn-outline-dark" target="_blank" href="#"><i class="fa-solid fa-download"></i> Mini</a>
               
-              <a class="btn btn-sm btn-outline-dark" target="_blank" href="#"><i class="fa-solid fa-download"></i> Extended</a>
+              <a class="btn btn-lg btn-outline-dark" target="_blank" href="#"><i class="fa-solid fa-download"></i> Extended</a>
             
             </div>
           </div>
@@ -208,20 +240,20 @@
             <div class="col-lg-8">
               <pre class="pt-4  bg-light rounded">
   @article{10.1371/journal.pone.0184554,
-    doi = {10.1371/journal.pone.0184554},
-    author = {Zieliński, Bartosz AND Plichta, Anna AND Misztal, Krzysztof AND Spurek, Przemysław AND Brzychczy-Włoch, Monika AND Ochońska, Dorota},
-    journal = {PLOS ONE},
-    publisher = {Public Library of Science},
-    title = {Deep learning approach to bacterial colony classification},
-    year = {2017},
-    month = {09},
-    volume = {12},
-    url = {https://doi.org/10.1371/journal.pone.0184554},
-    pages = {1-14},
-    number = {9}
-}
+      doi = {10.1371/journal.pone.0184554},
+      author = {Zieliński, Bartosz AND Plichta, Anna AND Misztal, Krzysztof AND Spurek, Przemysław AND Brzychczy-Włoch, Monika AND Ochońska, Dorota},
+      journal = {PLOS ONE},
+      publisher = {Public Library of Science},
+      title = {Deep learning approach to bacterial colony classification},
+      year = {2017},
+      month = {09},
+      volume = {12},
+      url = {https://doi.org/10.1371/journal.pone.0184554},
+      pages = {1-14},
+      number = {9}
+  }
               </pre>
-            <a class="btn btn-outline-dark" target="_blank" href="../../assets/files/bib/Bacteria.bib" download="BCT.bib"><i class="fa-solid fa-file-arrow-down"></i> Download as bib</a>
+            <a class="btn btn-outline-dark" target="_blank" href="../../assets/files/bib/BCT.bib" download="BCT.bib"><i class="fa-solid fa-file-arrow-down"></i> Download as bib</a>
             </div>
             
   

@@ -1,0 +1,47 @@
+{
+    "id" : "MCR.BCT",
+    "domain_id" : "MCR",
+    "domain_name" : "Microscopic",
+    "dataset_id" : "BCT",
+    "dataset_name" : "DIBaS",
+    "dataset_description" : "Digital Image of Bacterial Species (DIBaS)",
+    "keywords" : "microscopic, bacteria",
+    "data_format": "images",
+    "image_size": "128x128",
+    "license" : "",
+    "license_url" : "",
+    "license_details" : "",
+    "source" : "Digital Image of Bacterial Species (DIBaS)",
+    "source_url" : [
+        "http://misztal.edu.pl/software/databases/dibas/",
+        "https://github.com/gallardorafael/DIBaS-Dataset"
+    ],
+
+    "original_author": "Bartosz Zieliński, Anna Plichta, Krzysztof Misztal, Przemysław Spurek, Monika Brzychczy-Włoch, Dorota Ochońska",
+    "original_contact" : "krzysztof.misztal@uj.edu.pl",
+    "citation" : "BCT.bib",
+    "meta-album_author": "Romain Mussard",
+    "has_super_categories" : false,
+    "mini_version" : {
+        "total_super_categories": 0,
+        "total_categories_mini": 33,
+        "uniform_number_of_images_per_category": true,
+        "minimum_images_per_category": 40,
+        "median_images_per_category": 40,
+        "maximum_images_per_category": 40,
+        "total_images": 1320
+    },
+    "extended_version" : {
+        "total_super_categories": 0,
+        "total_categories": 33,
+        "uniform_number_of_images_per_category": false,
+        "minimum_images_per_category" : 108, 
+        "median_images_per_category" : 120,
+        "maximum_images_per_category" : 138, 
+        "total_images": 4060
+    },
+    "date_created" : "01 March 2022",
+    "contact_name" : "Ihsan Ullah",
+    "contact_email" : "meta-album@chalearn.org",
+    "contact_url" : "https://meta-album.github.io/"
+}
