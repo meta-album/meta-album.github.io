@@ -1149,3 +1149,16 @@ section {
 .bg-blue{
   background-color: #47aeff;
 }
+
+
+.text-caption{
+  font-size: 24px;
+  color: #000;
+  font-weight: bold;
+}
+.text-caption-set{
+  color: #148af9 !important
+}
+.text-caption-date{
+  color: #e80368 !important
+}
