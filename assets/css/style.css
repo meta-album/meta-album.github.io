@@ -1162,3 +1162,12 @@ section {
 .text-caption-date{
   color: #e80368 !important
 }
+
+
+
+
+
+.dataset-owner-affilication{
+  font-style: italic;
+  color: #728394;
+}
