@@ -58,6 +58,7 @@
       <ul>
         <li><a href="#hero" class="nav-link scrollto active"><i class="fa-solid fa-house"></i> <span>Home</span></a></li>
         <li><a href="#about" class="nav-link scrollto"><i class="fa-solid fa-circle-info"></i> <span>About</span></a></li>
+        <li><a href="#code" class="nav-link scrollto"><i class="fa-brands fa-github"></i> <span>Code</span></a></li>
         <li><a href="#datasets" class="nav-link scrollto"><i class="fa-solid fa-table-list"></i> <span>Datasets</span></a></li>
         <li><a href="#gallery" class="nav-link scrollto"><i class="fa-solid fa-images"></i> <span>Gallery</span></a></li>
         <li><a href="#citation" class="nav-link scrollto"><i class="fa-solid fa-quote-left"></i> <span>Citation</span></a></li>
@@ -106,11 +107,21 @@
           <h2>About</h2>
           <p>Meta Album is a meta-dataset created for few-shot learning, meta-learning, continual learning and so on. 
             Meta Album consists of 40 datasets from 10 unique domains. Datasets are arranged in sets (10 datasets, one dataset from each domain).
-            It is a continuously growing meta-dataset. See our datasets in <a href="#datasets">Datasets Section</a>.
+            It is a continuously growing meta-dataset. See our datasets in <a href="#datasets"><b><code>Datasets Section</code></b></a>.
           </p>
           <p>
-            We repurposed datasets that were generously made available by original creators, see <a href="credits.html" target="_blank">Credits page</a>
-            All datasets are free for use for academic purposes, provided that proper credits are given. For your convenience, you may <a href="#citation">cite</a> our <a target="_blank" href="paper.html">paper</a>, which references all original creators.
+            We repurposed datasets that were generously made available by original creators, see <a href="credits.html" target="_blank"><b><code>credits page</code></b></a>.
+            All datasets are free for use for academic purposes, provided that proper credits are given. For your convenience, you may <a href="#citation"><b><code>cite</code></b></a> our <a target="_blank" href="paper.html"><b><code>paper</code></b></a>,
+            which references all original creators.
+          </p>
+          <h4>License</h4>
+          <p>
+            Mata-Album is released under a <a target="_blank" href="https://creativecommons.org/licenses/by-nc/4.0/"><b><code>CC BY-NC 4.0</code></b></a> licence permitting non-commercial use for research purposes, provided that you <a href="#citation"><b><code>cite</code></b></a> us. Additionally, redistributed datasets have their own license, see the <a href="credits.html" target="_blank"><b><code>credits page</code></b></a>. All resources made available through this website as provided “as is”.  The curators of Meta-Album (and their home institutions and their sponsors) who have worked on its preparation, this website, the <a href="#code"><b><code>code</code></b></a> provided to read, process data, and run baseline methods, make no warranties concerning the licensed material, including of fitness for any purpose, non-infringement  absence of defects or errors, accuracy, and they decline any liability for losses or other possible consequences that may arise by using such material. The recommended use of Meta-Album is to conduct fundamental research on machine learning algorithms and conduct benchmarks, particularly in: few-shot learning, meta-learning, continual learning, transfer learning, and image classification.<br>
+            This briefly summarizes the terms of the license and the disclaimer (that the license includes).
+          </p>
+          <h4>Recommended use</h4>
+          <p>
+            The recommended use of Meta-Album is to conduct fundamental research on machine learning algorithms and conduct benchmarks, particularly in: few-shot learning, meta-learning, continual learning, transfer learning, and image classification.
           </p>
             
         </div>
@@ -257,7 +268,7 @@
 
         <div class="section-title">
           <h2>Datasets</h2>
-          <p>We list in the table below the data statistics of original datasets. We generally chose image classification datasets with at least 20 classes having more than 40 examples per class. 
+          <p>We list in the tables below the data statistics of original datasets. We generally chose image classification datasets with at least 20 classes having more than 40 examples per class. 
             Each dataset was transformed to 128x128 pixel images. We make available 3 versions: 
           </p>
           <ol>
@@ -272,7 +283,7 @@
           <div class="col-lg-1"></div>
           <div class="table-responsive col-lg-10">
             <table class="table caption-top">
-              <caption class="text-caption">Datasets <span class="text-caption-set">Set-0</span>, release date: <span class="text-caption-date">06 June 2022</span></caption>
+              <caption class=" alert alert-success text-caption">Datasets <span class="text-caption-set">Set-0</span>, release date: <span class="text-caption-date">06 June 2022</span></caption>
 
               <thead>
                 <tr>
@@ -324,6 +335,20 @@
                 
               </tbody>
             </table>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-1"></div>
+          <div class="alert alert-primary col-lg-10">
+            <span class="text-caption">Datasets <span class="text-caption-set">Set-1 and Set-2</span>, release date: <span class="text-caption-date">At NeurIPS 2022</span></span>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-1"></div>
+          <div class="alert alert-warning col-lg-10">
+            <span class="text-caption">Datasets <span class="text-caption-set">Set-3</span>, release date: <span class="text-caption-date">June 2023</span></span>
           </div>
         </div>
 
@@ -410,7 +435,7 @@
           <div class="col-lg-10">
             <pre class="pt-4  bg-light rounded">
   @inproceedings{meta-album-2022,
-    author = {Ihsan Ullah},
+    author = {Ihsan Ullah, Dustin Carrion, Sergio Escalera, Isabelle Guyon, Mike Huisman, Felix Mohr, Jan N. van Rijn, Haozhe Sun, Joaquin Vanschoren, Phan Anh Vu},
     booktitle = {Submitted to: Proceedings of the Neural Information Processing Systems Track on Datasets and Benchmarks},
     title = {Meta-Album: Multi-domain Meta-Dataset for Few-Shot Image Classification},
     url = {https://meta-album.github.io/},
@@ -540,7 +565,7 @@
   <footer id="footer">
     <div class="container">
       <div class="credits">
-        Template &copy; Copyright <strong><span>MyResume</span></strong>, Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+        <a target="_blank" href="https://creativecommons.org/licenses/by-nc/4.0/"><img height='30' src="assets/img/by-nc.png"></a>  Template &copy; Copyright <strong><span>MyResume</span></strong>
       </div>
     </div>
   </footer><!-- End Footer -->
