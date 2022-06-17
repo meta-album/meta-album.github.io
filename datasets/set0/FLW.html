@@ -57,7 +57,7 @@
                   <tbody>
                     
                     <tr>
-                      <th style="width: 20%" scope="row">Meta Album ID</th>
+                      <th style="width: 30%" scope="row">Meta Album ID</th>
                       <td>PLT.FLW</td>
                     </tr>
                     <tr>
@@ -67,6 +67,10 @@
                     <tr>
                       <th scope="row">Domain Name</th>
                       <td>Plants</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Set Number</th>
+                      <td>0</td>
                     </tr>
                     <tr>
                       <th scope="row">Dataset ID</th>
@@ -102,19 +106,32 @@
                     </tr>
                     
                     <tr>
-                      <th scope="row">License</th>
+                      <th scope="row">License <br>(original data release)</th>
                       <td>GNU General Public License Version 2</td>
                     </tr>
                     
 
                     
                     <tr>
-                      <th scope="row">License URL</th>
+                      <th scope="row">License URL <br>(original data release)</th>
                       <td>
                         
                         <a target="_blank" href="https://peltarion.com/knowledge-center/documentation/terms/dataset-licenses/oxford-102-category-flowers">https://peltarion.com/knowledge-center/documentation/terms/dataset-licenses/oxford-102-category-flowers</a> <br>
                         
+                        <a target="_blank" href="https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html">https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html</a> <br>
+                        
                       </td>
+                    </tr>
+                    
+
+                    <tr>
+                      <th scope="row">License <br>(Meta-Album data release)</th>
+                      <td>GNU General Public License Version 2</td>
+                    </tr>
+
+                    <tr>
+                      <th scope="row">License URL <br>(Meta-Album data release)</th>
+                      <td><a target="_blank" href="https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html">https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html</a> <br></td>
                     </tr>
                     
                     <tr>
@@ -172,7 +189,7 @@
           <div class="row mt-5">
             <div class="col-lg-2"></div>
             <div class="col-lg-6">
-              <h3>Download Meta-data file</h3>
+              <h3>Download Meta-data files</h3>
             </div>
           </div>
 
@@ -182,7 +199,9 @@
             <div class="col-lg-2"></div>
             <div class="col-lg-6 col-md-6">
 
-              <a class="btn btn-lg btn-outline-dark" target="_blank" href="../../assets/files/info/FLW_info.json" download="FLW_info.json"><i class="fa-solid fa-file-arrow-down"></i> Dataset Info</a>
+              <a class="btn btn-outline-dark" target="_blank" href="../../assets/files/info/FLW_info.json" download="FLW_info.json"><i class="fa-solid fa-file-arrow-down"></i> Dataset Info</a>
+              
+              <a class="btn btn-outline-dark" target="_blank" href="../../assets/files/datasheet/FLW.pdf" download="FLW.pdf"><i class="fa-solid fa-file-arrow-down"></i> Datasheet</a>
             
             </div>
           </div>
@@ -201,11 +220,19 @@
 
             <div class="col-lg-2"></div>
             <div class="col-lg-6 col-md-6">
-
-              <a class="btn btn-lg btn-outline-dark" target="_blank" href="#"><i class="fa-solid fa-download"></i> Mini</a>
               
-              <a class="btn btn-lg btn-outline-dark" target="_blank" href="#"><i class="fa-solid fa-download"></i> Extended</a>
-            
+              <a class="btn btn-outline-dark" target="_blank" href="https://www.openml.org/d/43932"><i class="fa-solid fa-link"></i> Micro</a>
+              
+
+              
+              <a class="btn btn-outline-dark" target="_blank" href="https://www.openml.org/d/43915"><i class="fa-solid fa-link"></i> Mini</a>
+              
+
+              
+              <a class="btn btn-outline-dark disabled" target="_blank" href="#"><i class="fa-solid fa-link"></i> Extended</a>
+              
+              
+              
             </div>
           </div>
 
@@ -244,13 +271,13 @@
             <div class="col-lg-2"></div>
             <div class="col-lg-8">
               <pre class="pt-4  bg-light rounded">
-@InProceedings{Nilsback08,
-  author       = "Maria-Elena Nilsback and Andrew Zisserman",
-  title        = "Automated Flower Classification over a Large Number of Classes",
-  booktitle    = "Indian Conference on Computer Vision, Graphics and Image Processing",
-  month        = "Dec",
-  year         = "2008",
-}
+  @InProceedings{Nilsback08,
+    author       = "Maria-Elena Nilsback and Andrew Zisserman",
+    title        = "Automated Flower Classification over a Large Number of Classes",
+    booktitle    = "Indian Conference on Computer Vision, Graphics and Image Processing",
+    month        = "Dec",
+    year         = "2008",
+  }
               </pre>
             <a class="btn btn-outline-dark" target="_blank" href="../../assets/files/bib/FLW.bib" download="FLW.bib"><i class="fa-solid fa-file-arrow-down"></i> Download as bib</a>
             </div>
@@ -265,6 +292,7 @@
         </div>
       </section><!-- End About Section -->
         
+      <script src="assets/vendor/bootstrap/js/bootstrap.min.js"></script>
 
     </body>
 </html>

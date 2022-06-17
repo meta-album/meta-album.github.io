@@ -57,7 +57,7 @@
                   <tbody>
                     
                     <tr>
-                      <th style="width: 20%" scope="row">Meta Album ID</th>
+                      <th style="width: 30%" scope="row">Meta Album ID</th>
                       <td>SM_AM.PLK</td>
                     </tr>
                     <tr>
@@ -67,6 +67,10 @@
                     <tr>
                       <th scope="row">Domain Name</th>
                       <td>Small Animals</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Set Number</th>
+                      <td>0</td>
                     </tr>
                     <tr>
                       <th scope="row">Dataset ID</th>
@@ -102,19 +106,30 @@
                     </tr>
                     
                     <tr>
-                      <th scope="row">License</th>
+                      <th scope="row">License <br>(original data release)</th>
                       <td>MIT License</td>
                     </tr>
                     
 
                     
                     <tr>
-                      <th scope="row">License URL</th>
+                      <th scope="row">License URL <br>(original data release)</th>
                       <td>
                         
                         <a target="_blank" href="https://github.com/hsosik/WHOI-Plankton/blob/master/LICENSE">https://github.com/hsosik/WHOI-Plankton/blob/master/LICENSE</a> <br>
                         
                       </td>
+                    </tr>
+                    
+
+                    <tr>
+                      <th scope="row">License <br>(Meta-Album data release)</th>
+                      <td>MIT License</td>
+                    </tr>
+
+                    <tr>
+                      <th scope="row">License URL <br>(Meta-Album data release)</th>
+                      <td><a target="_blank" href="https://github.com/hsosik/WHOI-Plankton/blob/master/LICENSE">https://github.com/hsosik/WHOI-Plankton/blob/master/LICENSE</a> <br></td>
                     </tr>
                     
                     <tr>
@@ -172,7 +187,7 @@
           <div class="row mt-5">
             <div class="col-lg-2"></div>
             <div class="col-lg-6">
-              <h3>Download Meta-data file</h3>
+              <h3>Download Meta-data files</h3>
             </div>
           </div>
 
@@ -182,7 +197,9 @@
             <div class="col-lg-2"></div>
             <div class="col-lg-6 col-md-6">
 
-              <a class="btn btn-lg btn-outline-dark" target="_blank" href="../../assets/files/info/PLK_info.json" download="PLK_info.json"><i class="fa-solid fa-file-arrow-down"></i> Dataset Info</a>
+              <a class="btn btn-outline-dark" target="_blank" href="../../assets/files/info/PLK_info.json" download="PLK_info.json"><i class="fa-solid fa-file-arrow-down"></i> Dataset Info</a>
+              
+              <a class="btn btn-outline-dark" target="_blank" href="../../assets/files/datasheet/PLK.pdf" download="PLK.pdf"><i class="fa-solid fa-file-arrow-down"></i> Datasheet</a>
             
             </div>
           </div>
@@ -201,11 +218,19 @@
 
             <div class="col-lg-2"></div>
             <div class="col-lg-6 col-md-6">
-
-              <a class="btn btn-lg btn-outline-dark" target="_blank" href="#"><i class="fa-solid fa-download"></i> Mini</a>
               
-              <a class="btn btn-lg btn-outline-dark" target="_blank" href="#"><i class="fa-solid fa-download"></i> Extended</a>
-            
+              <a class="btn btn-outline-dark" target="_blank" href="https://www.openml.org/d/43933"><i class="fa-solid fa-link"></i> Micro</a>
+              
+
+              
+              <a class="btn btn-outline-dark" target="_blank" href="https://www.openml.org/d/43916"><i class="fa-solid fa-link"></i> Mini</a>
+              
+
+              
+              <a class="btn btn-outline-dark disabled" target="_blank" href="#"><i class="fa-solid fa-link"></i> Extended</a>
+              
+              
+              
             </div>
           </div>
 
@@ -244,13 +269,13 @@
             <div class="col-lg-2"></div>
             <div class="col-lg-8">
               <pre class="pt-4  bg-light rounded">
-@misc{whoiplankton,
-      title={Annotated Plankton Images - Data Set for Developing and Evaluating Classification Methods.}, 
-      author={Heidi M. Sosik, Emily E. Peacock, Emily F. Brownlee},
-      year={2015},
-      DOI = {10.1575/1912/7341},
-      url={https://hdl.handle.net/10.1575/1912/7341}
-}
+  @misc{whoiplankton,
+        title={Annotated Plankton Images - Data Set for Developing and Evaluating Classification Methods.}, 
+        author={Heidi M. Sosik, Emily E. Peacock, Emily F. Brownlee},
+        year={2015},
+        DOI = {10.1575/1912/7341},
+        url={https://hdl.handle.net/10.1575/1912/7341}
+  }
               </pre>
             <a class="btn btn-outline-dark" target="_blank" href="../../assets/files/bib/PLK.bib" download="PLK.bib"><i class="fa-solid fa-file-arrow-down"></i> Download as bib</a>
             </div>
@@ -265,6 +290,7 @@
         </div>
       </section><!-- End About Section -->
         
+      <script src="assets/vendor/bootstrap/js/bootstrap.min.js"></script>
 
     </body>
 </html>

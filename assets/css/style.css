@@ -291,27 +291,17 @@ h1, h2, h3, h4, h5, h6 {
 #hero .social-links {
   margin-top: 30px;
 }
-#hero .social-links a {
-  font-size: 40px;
+/* #hero .social-links a {
+  font-size: 20px;
   display: inline-block;
-  margin-right: 20px;
   border: none;
-  
-  /* color: #fff;
-  line-height: 1;
-  transition: 0.3s;
-   */
-}
-#hero .social-links .github:hover {
-  color: #fff;
-  background-color: #040204;
-  border: none;
-}
-#hero .social-links .twitter:hover{
+} */
+
+/* #hero .social-links .twitter:hover{
   color: #fff;
   background-color: #00B6F1;
   border: none;
-}
+} */
 @media (max-width: 992px) {
   #hero {
     text-align: center;

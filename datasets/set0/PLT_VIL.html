@@ -57,7 +57,7 @@
                   <tbody>
                     
                     <tr>
-                      <th style="width: 20%" scope="row">Meta Album ID</th>
+                      <th style="width: 30%" scope="row">Meta Album ID</th>
                       <td>PLT_DIS.PLT_VIL</td>
                     </tr>
                     <tr>
@@ -67,6 +67,10 @@
                     <tr>
                       <th scope="row">Domain Name</th>
                       <td>Plant Diseases</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Set Number</th>
+                      <td>0</td>
                     </tr>
                     <tr>
                       <th scope="row">Dataset ID</th>
@@ -102,14 +106,14 @@
                     </tr>
                     
                     <tr>
-                      <th scope="row">License</th>
+                      <th scope="row">License <br>(original data release)</th>
                       <td>CC0 1.0</td>
                     </tr>
                     
 
                     
                     <tr>
-                      <th scope="row">License URL</th>
+                      <th scope="row">License URL <br>(original data release)</th>
                       <td>
                         
                         <a target="_blank" href="https://data.mendeley.com/datasets/tywbtsjrjv/1">https://data.mendeley.com/datasets/tywbtsjrjv/1</a> <br>
@@ -117,6 +121,17 @@
                         <a target="_blank" href="https://creativecommons.org/publicdomain/zero/1.0/">https://creativecommons.org/publicdomain/zero/1.0/</a> <br>
                         
                       </td>
+                    </tr>
+                    
+
+                    <tr>
+                      <th scope="row">License <br>(Meta-Album data release)</th>
+                      <td>CC0 1.0</td>
+                    </tr>
+
+                    <tr>
+                      <th scope="row">License URL <br>(Meta-Album data release)</th>
+                      <td><a target="_blank" href="https://creativecommons.org/publicdomain/zero/1.0/">https://creativecommons.org/publicdomain/zero/1.0/</a> <br></td>
                     </tr>
                     
                     <tr>
@@ -174,7 +189,7 @@
           <div class="row mt-5">
             <div class="col-lg-2"></div>
             <div class="col-lg-6">
-              <h3>Download Meta-data file</h3>
+              <h3>Download Meta-data files</h3>
             </div>
           </div>
 
@@ -184,7 +199,9 @@
             <div class="col-lg-2"></div>
             <div class="col-lg-6 col-md-6">
 
-              <a class="btn btn-lg btn-outline-dark" target="_blank" href="../../assets/files/info/PLT_VIL_info.json" download="PLT_VIL_info.json"><i class="fa-solid fa-file-arrow-down"></i> Dataset Info</a>
+              <a class="btn btn-outline-dark" target="_blank" href="../../assets/files/info/PLT_VIL_info.json" download="PLT_VIL_info.json"><i class="fa-solid fa-file-arrow-down"></i> Dataset Info</a>
+              
+              <a class="btn btn-outline-dark" target="_blank" href="../../assets/files/datasheet/PLT_VIL.pdf" download="PLT_VIL.pdf"><i class="fa-solid fa-file-arrow-down"></i> Datasheet</a>
             
             </div>
           </div>
@@ -203,11 +220,19 @@
 
             <div class="col-lg-2"></div>
             <div class="col-lg-6 col-md-6">
-
-              <a class="btn btn-lg btn-outline-dark" target="_blank" href="#"><i class="fa-solid fa-download"></i> Mini</a>
               
-              <a class="btn btn-lg btn-outline-dark" target="_blank" href="#"><i class="fa-solid fa-download"></i> Extended</a>
-            
+              <a class="btn btn-outline-dark" target="_blank" href="https://www.openml.org/d/43934"><i class="fa-solid fa-link"></i> Micro</a>
+              
+
+              
+              <a class="btn btn-outline-dark" target="_blank" href="https://www.openml.org/d/43910"><i class="fa-solid fa-link"></i> Mini</a>
+              
+
+              
+              <a class="btn btn-outline-dark disabled" target="_blank" href="#"><i class="fa-solid fa-link"></i> Extended</a>
+              
+              
+              
             </div>
           </div>
 
@@ -246,18 +271,18 @@
             <div class="col-lg-2"></div>
             <div class="col-lg-8">
               <pre class="pt-4  bg-light rounded">
-@article{G2019323,
-    title = {Identification of plant leaf diseases using a nine-layer deep convolutional neural network},
-    journal = {Computers & Electrical Engineering},
-    volume = {76},
-    pages = {323-338},
-    year = {2019},
-    issn = {0045-7906},
-    doi = {https://doi.org/10.1016/j.compeleceng.2019.04.011},
-    url = {https://www.sciencedirect.com/science/article/pii/S0045790619300023},
-    author = {Geetharamani G. and Arun Pandian J.},
-    keywords = {Artificial intelligence, Deep convolutional neural networks, Deep learning, Dropout, Image augmentation, Leaf diseases identification, Machine learning, Mini batch, Training epoch, Transfer learning},
-}
+  @article{G2019323,
+      title = {Identification of plant leaf diseases using a nine-layer deep convolutional neural network},
+      journal = {Computers & Electrical Engineering},
+      volume = {76},
+      pages = {323-338},
+      year = {2019},
+      issn = {0045-7906},
+      doi = {https://doi.org/10.1016/j.compeleceng.2019.04.011},
+      url = {https://www.sciencedirect.com/science/article/pii/S0045790619300023},
+      author = {Geetharamani G. and Arun Pandian J.},
+      keywords = {Artificial intelligence, Deep convolutional neural networks, Deep learning, Dropout, Image augmentation, Leaf diseases identification, Machine learning, Mini batch, Training epoch, Transfer learning},
+  }
               </pre>
             <a class="btn btn-outline-dark" target="_blank" href="../../assets/files/bib/PLT_VIL.bib" download="PLT_VIL.bib"><i class="fa-solid fa-file-arrow-down"></i> Download as bib</a>
             </div>
@@ -272,6 +297,7 @@
         </div>
       </section><!-- End About Section -->
         
+      <script src="assets/vendor/bootstrap/js/bootstrap.min.js"></script>
 
     </body>
 </html>

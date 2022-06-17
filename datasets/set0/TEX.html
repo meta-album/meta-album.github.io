@@ -57,7 +57,7 @@
                   <tbody>
                     
                     <tr>
-                      <th style="width: 20%" scope="row">Meta Album ID</th>
+                      <th style="width: 30%" scope="row">Meta Album ID</th>
                       <td>MNF.TEX</td>
                     </tr>
                     <tr>
@@ -67,6 +67,10 @@
                     <tr>
                       <th scope="row">Domain Name</th>
                       <td>Manufacturing</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Set Number</th>
+                      <td>0</td>
                     </tr>
                     <tr>
                       <th scope="row">Dataset ID</th>
@@ -102,14 +106,14 @@
                     </tr>
                     
                     <tr>
-                      <th scope="row">License</th>
+                      <th scope="row">License <br>(original data release)</th>
                       <td>CC BY NC 4.0, public for research, cite paper to use dataset</td>
                     </tr>
                     
 
                     
                     <tr>
-                      <th scope="row">License URL</th>
+                      <th scope="row">License URL <br>(original data release)</th>
                       <td>
                         
                         <a target="_blank" href="https://creativecommons.org/licenses/by-nc/4.0/">https://creativecommons.org/licenses/by-nc/4.0/</a> <br>
@@ -117,6 +121,17 @@
                         <a target="_blank" href="https://kylberg.org/wp-content/uploads/2020/05/KylbergTextureDocumentation-1.0.pdf">https://kylberg.org/wp-content/uploads/2020/05/KylbergTextureDocumentation-1.0.pdf</a> <br>
                         
                       </td>
+                    </tr>
+                    
+
+                    <tr>
+                      <th scope="row">License <br>(Meta-Album data release)</th>
+                      <td>CC BY-NC 4.0</td>
+                    </tr>
+
+                    <tr>
+                      <th scope="row">License URL <br>(Meta-Album data release)</th>
+                      <td><a target="_blank" href="https://creativecommons.org/licenses/by-nc/4.0/">https://creativecommons.org/licenses/by-nc/4.0/</a> <br></td>
                     </tr>
                     
                     <tr>
@@ -176,7 +191,7 @@
           <div class="row mt-5">
             <div class="col-lg-2"></div>
             <div class="col-lg-6">
-              <h3>Download Meta-data file</h3>
+              <h3>Download Meta-data files</h3>
             </div>
           </div>
 
@@ -186,7 +201,9 @@
             <div class="col-lg-2"></div>
             <div class="col-lg-6 col-md-6">
 
-              <a class="btn btn-lg btn-outline-dark" target="_blank" href="../../assets/files/info/TEX_info.json" download="TEX_info.json"><i class="fa-solid fa-file-arrow-down"></i> Dataset Info</a>
+              <a class="btn btn-outline-dark" target="_blank" href="../../assets/files/info/TEX_info.json" download="TEX_info.json"><i class="fa-solid fa-file-arrow-down"></i> Dataset Info</a>
+              
+              <a class="btn btn-outline-dark" target="_blank" href="../../assets/files/datasheet/TEX.pdf" download="TEX.pdf"><i class="fa-solid fa-file-arrow-down"></i> Datasheet</a>
             
             </div>
           </div>
@@ -205,11 +222,19 @@
 
             <div class="col-lg-2"></div>
             <div class="col-lg-6 col-md-6">
-
-              <a class="btn btn-lg btn-outline-dark" target="_blank" href="#"><i class="fa-solid fa-download"></i> Mini</a>
               
-              <a class="btn btn-lg btn-outline-dark" target="_blank" href="#"><i class="fa-solid fa-download"></i> Extended</a>
-            
+              <a class="btn btn-outline-dark" target="_blank" href="https://www.openml.org/d/43937"><i class="fa-solid fa-link"></i> Micro</a>
+              
+
+              
+              <a class="btn btn-outline-dark" target="_blank" href="https://www.openml.org/d/43914"><i class="fa-solid fa-link"></i> Mini</a>
+              
+
+              
+              <a class="btn btn-outline-dark disabled" target="_blank" href="#"><i class="fa-solid fa-link"></i> Extended</a>
+              
+              
+              
             </div>
           </div>
 
@@ -248,49 +273,49 @@
             <div class="col-lg-2"></div>
             <div class="col-lg-8">
               <pre class="pt-4  bg-light rounded">
-@inproceedings{Fritz2004THEKD,
-  title={THE KTH-TIPS database},
-  author={Mario Fritz and E. Hayman and B. Caputo and J. Eklundh},
-  year={2004},
-  url = {https://www.csc.kth.se/cvap/databases/kth-tips/index.html}
-}
+  @inproceedings{Fritz2004THEKD,
+    title={THE KTH-TIPS database},
+    author={Mario Fritz and E. Hayman and B. Caputo and J. Eklundh},
+    year={2004},
+    url = {https://www.csc.kth.se/cvap/databases/kth-tips/index.html}
+  }
 
-@inproceedings{Mallikarjuna2006THEK2,
-  title={THE KTH-TIPS 2 database},
-  author={P. Mallikarjuna and Alireza Tavakoli Targhi and Mario Fritz and E. Hayman and B. Caputo and J. Eklundh},
-  year={2006},
-  url = {https://www.csc.kth.se/cvap/databases/kth-tips/index.html}
-}
+  @inproceedings{Mallikarjuna2006THEK2,
+    title={THE KTH-TIPS 2 database},
+    author={P. Mallikarjuna and Alireza Tavakoli Targhi and Mario Fritz and E. Hayman and B. Caputo and J. Eklundh},
+    year={2006},
+    url = {https://www.csc.kth.se/cvap/databases/kth-tips/index.html}
+  }
 
-@TECHREPORT{Kylberg2011c,
-  author = {Gustaf Kylberg},
-  title = {The Kylberg Texture Dataset v. 1.0},
-  institution = {Centre for Image Analysis, Swedish University of Agricultural Sciences
-	and Uppsala University, Uppsala, Sweden},
-  year = {2011},
-  type = {External report (Blue series)},
-  number = {35},
-  month = {September},
-  url = {http://www.cb.uu.se/~gustaf/texture/}
-}
+  @TECHREPORT{Kylberg2011c,
+    author = {Gustaf Kylberg},
+    title = {The Kylberg Texture Dataset v. 1.0},
+    institution = {Centre for Image Analysis, Swedish University of Agricultural Sciences
+    and Uppsala University, Uppsala, Sweden},
+    year = {2011},
+    type = {External report (Blue series)},
+    number = {35},
+    month = {September},
+    url = {http://www.cb.uu.se/~gustaf/texture/}
+  }
 
-@article{lazebnik:inria-00548530,
-  TITLE = {{A sparse texture representation using local affine regions}},
-  AUTHOR = {Lazebnik, Svetlana and Schmid, Cordelia and Ponce, Jean},
-  URL = {https://hal.inria.fr/inria-00548530},
-  JOURNAL = {{IEEE Transactions on Pattern Analysis and Machine Intelligence}},
-  PUBLISHER = {{Institute of Electrical and Electronics Engineers}},
-  VOLUME = {27},
-  NUMBER = {8},
-  PAGES = {1265--1278},
-  YEAR = {2005},
-  MONTH = Aug,
-  DOI = {10.1109/TPAMI.2005.151},
-  KEYWORDS = {Index Terms- Image processing and computer vision ; feature measurement ; pattern recognition ; texture},
-  PDF = {https://hal.inria.fr/inria-00548530/file/lana_pami_final.pdf},
-  HAL_ID = {inria-00548530},
-  HAL_VERSION = {v1},
-}
+  @article{lazebnik:inria-00548530,
+    TITLE = {{A sparse texture representation using local affine regions}},
+    AUTHOR = {Lazebnik, Svetlana and Schmid, Cordelia and Ponce, Jean},
+    URL = {https://hal.inria.fr/inria-00548530},
+    JOURNAL = {{IEEE Transactions on Pattern Analysis and Machine Intelligence}},
+    PUBLISHER = {{Institute of Electrical and Electronics Engineers}},
+    VOLUME = {27},
+    NUMBER = {8},
+    PAGES = {1265--1278},
+    YEAR = {2005},
+    MONTH = Aug,
+    DOI = {10.1109/TPAMI.2005.151},
+    KEYWORDS = {Index Terms- Image processing and computer vision ; feature measurement ; pattern recognition ; texture},
+    PDF = {https://hal.inria.fr/inria-00548530/file/lana_pami_final.pdf},
+    HAL_ID = {inria-00548530},
+    HAL_VERSION = {v1},
+  }
               </pre>
             <a class="btn btn-outline-dark" target="_blank" href="../../assets/files/bib/TEX.bib" download="TEX.bib"><i class="fa-solid fa-file-arrow-down"></i> Download as bib</a>
             </div>
@@ -305,6 +330,7 @@
         </div>
       </section><!-- End About Section -->
         
+      <script src="assets/vendor/bootstrap/js/bootstrap.min.js"></script>
 
     </body>
 </html>

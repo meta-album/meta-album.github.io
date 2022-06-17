@@ -63,6 +63,7 @@
         <li><a href="#gallery" class="nav-link scrollto"><i class="fa-solid fa-images"></i> <span>Gallery</span></a></li>
         <li><a href="#citation" class="nav-link scrollto"><i class="fa-solid fa-quote-left"></i> <span>Citation</span></a></li>
         <li><a href="#partners" class="nav-link scrollto"><i class="fa-solid fa-handshake"></i> <span>Partners</span></a></li>
+        <li><a href="credits.html" class="nav-link scrollto"><i class="fa-solid fa-medal"></i> <span>Credits</span></a></li>
         <li><a href="#contact" class="nav-link scrollto"><i class="fa-solid fa-address-book"></i> <span>Contact</span></a></li>
       </ul>
     </nav><!-- .nav-menu -->
@@ -87,8 +88,8 @@
           <span class="badge bg-purple text-light">image classification</span>
         </p>
         <div class="social-links">
-          <a class="btn btn-lg btn-light rounded-circle github" href="https://github.com/ihsaan-ullah/meta-album" target="_blank"><i class="fa-brands fa-github"></i></a>
-          <a class="btn btn-lg btn-light rounded-circle twitter" href="https://twitter.com/MetaAlbum" target="_blank" ><i class="fa-brands fa-twitter"></i></a>
+          <a class="btn btn-outline-light"><i class="fa-solid fa-file-lines"></i> Meta-Album Paper</a>
+          <!-- <a class="btn btn-sm btn-outline-light" href="https://twitter.com/MetaAlbum" target="_blank" ><i class="fa-brands fa-twitter"></i></a> -->
         </div>
       </div>
       
@@ -116,8 +117,9 @@
           </p>
           <h4>License</h4>
           <p>
-            Mata-Album is released under a <a target="_blank" href="https://creativecommons.org/licenses/by-nc/4.0/"><b><code>CC BY-NC 4.0</code></b></a> licence permitting non-commercial use for research purposes, provided that you <a href="#citation"><b><code>cite</code></b></a> us. Additionally, redistributed datasets have their own license, see the <a href="credits.html" target="_blank"><b><code>credits page</code></b></a>. All resources made available through this website as provided “as is”.  The curators of Meta-Album (and their home institutions and their sponsors) who have worked on its preparation, this website, the <a href="#code"><b><code>code</code></b></a> provided to read, process data, and run baseline methods, make no warranties concerning the licensed material, including of fitness for any purpose, non-infringement  absence of defects or errors, accuracy, and they decline any liability for losses or other possible consequences that may arise by using such material. The recommended use of Meta-Album is to conduct fundamental research on machine learning algorithms and conduct benchmarks, particularly in: few-shot learning, meta-learning, continual learning, transfer learning, and image classification.<br>
-            This briefly summarizes the terms of the license and the disclaimer (that the license includes).
+            Meta-Album is released under a <a target="_blank" href="https://creativecommons.org/licenses/by-nc/4.0/"><b><code>CC BY-NC 4.0</code></b></a> licence permitting non-commercial use for research purposes, provided that you <a href="#citation"><b><code>cite</code></b></a> us. Additionally, redistributed datasets have their own license, see the <a href="credits.html" target="_blank"><b><code>credits page</code></b></a>. All resources made available through this website as provided “as is”.  The curators of Meta-Album (and their home institutions and their sponsors) who have worked on its preparation, this website, the <a href="#code"><b><code>code</code></b></a> provided to read, process data, and run baseline methods, make no warranties concerning the licensed material, including of fitness for any purpose, non-infringement  absence of defects or errors, accuracy, and they decline any liability for losses or other possible consequences that may arise by using such material. 
+            <br>
+            This briefly summarizes the terms of the license <a target="_blank" href="https://creativecommons.org/licenses/by-nc/4.0/"><b><code>CC BY-NC 4.0</code></b></a>  and the disclaimer (that the license includes).
           </p>
           <h4>Recommended use</h4>
           <p>
@@ -269,12 +271,15 @@
         <div class="section-title">
           <h2>Datasets</h2>
           <p>We list in the tables below the data statistics of original datasets. We generally chose image classification datasets with at least 20 classes having more than 40 examples per class. 
-            Each dataset was transformed to 128x128 pixel images. We make available 3 versions: 
+            Each dataset was transformed to 128x128 pixel images. The data is availabel in 4 versions: 
           </p>
           <ol>
-            <li>Original data</li>
+            <li>Original data (from the original creators’ website)
+            </li>
             <li>Meta Album extended = All classes having at least 40 examples per classes, images 128x128 pixel</li>
-            <li>Meta Album mini = same as Meta Album extended, but we randomly sampled only 40 examples for each class (hence the dataset are class-balanced)</li>
+            <li>Meta Album mini = same as Meta Album extended, but we randomly sampled only 40 examples for each class (hence the datasets are class-balanced)</li>
+            <li>Meta Album micro = same as Meta Album mini, but only 20 randomly selected classes.
+            </li>
           </ol>
         </div>
         
@@ -468,19 +473,19 @@
         <div class="row">
           <div class="col-lg-1"></div>
           <div class="col-lg-2 col-md-4 col-sm-6 align-items-stretch mt-4 mt-lg-0 text-center">
-            <img src="assets/img/institutions/chalearn.png"  class="img-fluid">
+            <a target="_blank" href="http://www.chalearn.org/"><img src="assets/img/institutions/chalearn.png"  class="img-fluid"></a>
           </div>
           <div class="col-lg-2 col-md-4 col-sm-6 align-items-stretch mt-4 mt-lg-0 text-center">
-            <img src="assets/img/institutions/openml.png"  class="img-fluid">
+            <a target="_blank" href="https://openml.org/"><img src="assets/img/institutions/openml.png"  class="img-fluid"></a>
           </div>
           <div class="col-lg-2 col-md-4 col-sm-6 align-items-stretch mt-4 mt-lg-0 text-center">
-            <img src="assets/img/institutions/paris_saclay_uni.png"  class="img-fluid">
+            <a target="_blank" href="https://www.universite-paris-saclay.fr/en"><img src="assets/img/institutions/paris_saclay_uni.png"  class="img-fluid"></a>
           </div>
           <div class="col-lg-2 col-md-4 col-sm-6 align-items-stretch mt-4 mt-lg-0 text-center">
-            <img src="assets/img/institutions/leiden_uni.png"  class="img-fluid">
+            <a target="_blank" href="https://www.universiteitleiden.nl/en"><img src="assets/img/institutions/leiden_uni.png"  class="img-fluid"></a>
           </div>
           <div class="col-lg-2 col-md-4 col-sm-6 align-items-stretch mt-4 mt-lg-0 text-center">
-            <img src="assets/img/institutions/col_uls.jpeg"  class="img-fluid">
+            <a target="_blank" href="https://www.unisabana.edu.co/englishversion/"><img src="assets/img/institutions/col_uls.jpeg"  class="img-fluid"></a>
           </div>
           
         </div>
@@ -499,17 +504,16 @@
         <div class="row">
           <div class="col-lg-2"></div>
           <div class="col-lg-2 col-md-4 col-sm-6 align-items-stretch mt-4 mt-lg-0 text-center">
-            <img src="assets/img/sponsors/google.png"  class="img-fluid">
-          </div>
-          
-          <div class="col-lg-2 col-md-4 col-sm-6 align-items-stretch mt-4 mt-lg-0 text-center">
-            <img src="assets/img/sponsors/4_paradigm.png"  class="img-fluid">
+            <a target="_blank" href="https://www.google.com/"><img src="assets/img/sponsors/google.png"  class="img-fluid"></a>
           </div>
           <div class="col-lg-2 col-md-4 col-sm-6 align-items-stretch mt-4 mt-lg-0 text-center">
-            <img src="assets/img/sponsors/microsoft.png"  class="img-fluid">
+            <a target="_blank" href="https://en.4paradigm.com/index.html"><img src="assets/img/sponsors/4_paradigm.png"  class="img-fluid"></a>
           </div>
           <div class="col-lg-2 col-md-4 col-sm-6 align-items-stretch mt-4 mt-lg-0 text-center">
-            <img src="assets/img/sponsors/codalab.png"  class="img-fluid">
+            <a target="_blank" href="https://www.microsoft.com/"><img src="assets/img/sponsors/microsoft.png"  class="img-fluid"></a>
+          </div>
+          <div class="col-lg-2 col-md-4 col-sm-6 align-items-stretch mt-4 mt-lg-0 text-center">
+            <a target="_blank" href="https://codalab.org/"><img src="assets/img/sponsors/codalab.png"  class="img-fluid"></a>
           </div>
         </div>
 
@@ -528,8 +532,8 @@
 
         <div class="row">
 
-          <div class="col-lg-1"></div>
-          <div class="col-lg-4">
+          <div class="col-lg-2"></div>
+          <div class="col-lg-3">
             <div class="info">
               <div class="address">
                 <i class="bi bi-geo-alt"></i>
@@ -540,15 +544,23 @@
           </div>
           
 
-          <div class="col-lg-4">
+          <div class="col-lg-3">
             <div class="info">
               <div class="email">
                 <i class="bi bi-envelope"></i>
                 <p>Email:</p>
                 <h4>meta-album@chalearn.org</h4>
               </div>
+            </div>
+          </div>
 
-             
+          <div class="col-lg-3">
+            <div class="info">
+              <div class="email">
+                <i class="bi bi-twitter"></i>
+                <p>Twitter:</p>
+                <h4><a href="https://twitter.com/MetaAlbum" target="_blank">@MetaAlbum</a></h4>
+              </div>
             </div>
           </div>
 
