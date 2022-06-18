@@ -341,6 +341,23 @@ section {
   position: relative;
   color: #45505b;
 }
+
+.credits-authors{
+  margin-left: 10% !important;
+}
+.credits-authors ol{
+  margin-left: 5% !important;
+  width: 80%;
+  text-align: left;
+}
+.credits-authors h5 {
+  font-size: 22px;
+  font-weight: bold;
+  margin-top: 30px;
+  position: relative;
+  color: #45505b;
+  text-align: left !important;
+}
 .section-title h2::before {
   content: "";
   position: absolute;
@@ -1152,6 +1169,12 @@ section {
   font-size: 24px;
   color: #000;
   font-weight: bold;
+}
+.text-caption-download{
+  font-size: 16px;
+  color: #000;
+  font-weight: initial;
+  font-style: italic;
 }
 .text-caption-set{
   color: #148af9 !important
