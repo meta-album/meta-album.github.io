@@ -1191,3 +1191,14 @@ section {
   font-style: italic;
   color: #728394;
 }
+
+.partner-img{
+  padding: 0px 20px 0px !important;
+ 
+}
+
+@media  screen and (max-width: 600px) {
+  .partner-img{
+    padding: 10px 80px 10px !important;
+  }
+}
