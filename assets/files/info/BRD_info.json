@@ -1,7 +1,7 @@
 {
     "id" : "LR_AM.BRD",
     "domain_id" : "LR_AM",
-    "domain_name" : "Large Aninamls",
+    "domain_name" : "Large Animals",
     "dataset_id" : "BRD",
     "dataset_name" : "Birds",
     "dataset_description" : "Birds dataset for image classification",
@@ -14,16 +14,27 @@
         "https://creativecommons.org/publicdomain/zero/1.0/"
     ],
     "license_details" : "",
+    "meta-album_license" : "CC0 Public Domain",
+    "meta-album_license_url" : "https://creativecommons.org/publicdomain/zero/1.0/",
     "source" : "BIRDS 400 - SPECIES IMAGE CLASSIFICATION",
     "source_url" : ["https://www.kaggle.com/gpiosenka/100-bird-species"],
     "original_author": "Gerald Piosenka",
     "original_contact" : "https://www.kaggle.com/gpiosenka/contact",
     "citation" : "BRD.bib",
-    "meta-album_author": "Dustin Carrión",
+    "meta-album_author": "Dustin Carrion",
     "has_super_categories" : false,
+    "micro_version" : {
+        "total_super_categories": 0,
+        "total_categories": 20,
+        "uniform_number_of_images_per_category": true,
+        "minimum_images_per_category": 40,
+        "median_images_per_category": 40,
+        "maximum_images_per_category": 40,
+        "total_images": 800
+    },
     "mini_version" : {
         "total_super_categories": 0,
-        "total_categories_mini": 315,
+        "total_categories": 315,
         "uniform_number_of_images_per_category": true,
         "minimum_images_per_category": 40,
         "median_images_per_category": 40,
@@ -42,5 +53,11 @@
     "date_created" : "01 March 2022",
     "contact_name" : "Ihsan Ullah",
     "contact_email" : "meta-album@chalearn.org",
-    "contact_url" : "https://meta-album.github.io/"
+    "contact_url" : "https://meta-album.github.io/",
+    "openml_url" : {
+        "micro" : "https://www.openml.org/d/43930",
+        "mini" : "https://www.openml.org/d/43940",
+        "extended" : ""
+    },
+    "meta-album_set" : 0
 }

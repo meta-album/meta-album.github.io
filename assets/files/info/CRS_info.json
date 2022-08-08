@@ -8,9 +8,14 @@
     "keywords" : "vehicles, cars",
     "data_format": "images",
     "image_size": "128x128",
-    "license" : "Same as ImageNet License",
-    "license_url" : ["https://ai.stanford.edu/~jkrause/cars/car_dataset.html"],
+    "license" : "ImageNet License",
+    "license_url" : [
+        "https://ai.stanford.edu/~jkrause/cars/car_dataset.html",
+        "https://www.image-net.org/download.php"
+    ],
     "license_details" : "",
+    "meta-album_license" : "ImageNet License",
+    "meta-album_license_url" : "https://www.image-net.org/download.php",
     "source" : "Stanford Cars Dataset",
     "source_url" : ["https://ai.stanford.edu/~jkrause/cars/car_dataset.html"],
     "original_author": "Jonathan Krause, Michael Stark, Jia Deng, Li Fei-Fei",
@@ -18,9 +23,18 @@
     "citation" : "CRS.bib",
     "meta-album_author": "Philip Boser",
     "has_super_categories" : false,
+    "micro_version" : {
+        "total_super_categories": 0,
+        "total_categories": 20,
+        "uniform_number_of_images_per_category": true,
+        "minimum_images_per_category": 40,
+        "median_images_per_category": 40,
+        "maximum_images_per_category": 40,
+        "total_images": 800
+    },
     "mini_version" : {
         "total_super_categories": 0,
-        "total_categories_mini": 196,
+        "total_categories": 196,
         "uniform_number_of_images_per_category": true,
         "minimum_images_per_category": 40,
         "median_images_per_category": 40,
@@ -39,5 +53,11 @@
     "date_created" : "01 March 2022",
     "contact_name" : "Ihsan Ullah",
     "contact_email" : "meta-album@chalearn.org",
-    "contact_url" : "https://meta-album.github.io/"
+    "contact_url" : "https://meta-album.github.io/",
+    "openml_url" : {
+        "micro" : "https://www.openml.org/d/43931",
+        "mini" : "https://www.openml.org/d/43917",
+        "extended" : ""
+    },
+    "meta-album_set" : 0
 }

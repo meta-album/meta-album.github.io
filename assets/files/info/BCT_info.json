@@ -8,12 +8,15 @@
     "keywords" : "microscopic, bacteria",
     "data_format": "images",
     "image_size": "128x128",
-    "license" : "",
+    "license" : "Public for researchers",
     "license_url" : "",
     "license_details" : "",
+    "meta-album_license" : "CC BY-NC 4.0",
+    "meta-album_license_url" : "https://creativecommons.org/licenses/by-nc/4.0/",
     "source" : "Digital Image of Bacterial Species (DIBaS)",
     "source_url" : [
         "http://misztal.edu.pl/software/databases/dibas/",
+        "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0184554",
         "https://github.com/gallardorafael/DIBaS-Dataset"
     ],
 
@@ -22,9 +25,18 @@
     "citation" : "BCT.bib",
     "meta-album_author": "Romain Mussard",
     "has_super_categories" : false,
+    "micro_version" : {
+        "total_super_categories": 0,
+        "total_categories": 20,
+        "uniform_number_of_images_per_category": true,
+        "minimum_images_per_category": 40,
+        "median_images_per_category": 40,
+        "maximum_images_per_category": 40,
+        "total_images": 800
+    },
     "mini_version" : {
         "total_super_categories": 0,
-        "total_categories_mini": 33,
+        "total_categories": 33,
         "uniform_number_of_images_per_category": true,
         "minimum_images_per_category": 40,
         "median_images_per_category": 40,
@@ -43,5 +55,11 @@
     "date_created" : "01 March 2022",
     "contact_name" : "Ihsan Ullah",
     "contact_email" : "meta-album@chalearn.org",
-    "contact_url" : "https://meta-album.github.io/"
+    "contact_url" : "https://meta-album.github.io/",
+    "openml_url" : {
+        "micro" : "https://www.openml.org/d/43929",
+        "mini" : "https://www.openml.org/d/43913",
+        "extended" : ""
+    },
+    "meta-album_set" : 0
 }

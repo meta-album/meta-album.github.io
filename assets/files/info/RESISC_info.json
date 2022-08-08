@@ -11,6 +11,8 @@
     "license" : "CC-BY-NC 4.0",
     "license_url" : ["https://creativecommons.org/licenses/by-nc/4.0/"],
     "license_detaills" : "Email confirmation",
+    "meta-album_license" : "CC-BY-NC 4.0",
+    "meta-album_license_url" : "https://creativecommons.org/licenses/by-nc/4.0/",
     "source" : "NWPU-RESISC45 Dataset",
     "source_url" : ["https://gcheng-nwpu.github.io/"],
     "original_author": "Gong Cheng, Junwei Han, and Xiaoqiang Lu",
@@ -18,9 +20,18 @@
     "citation" : "RESISC.bib",
     "meta-album_author": "Phan Anh VU",
     "has_super_categories" : false,
+    "micro_version" : {
+        "total_super_categories": 0,
+        "total_categories": 20,
+        "uniform_number_of_images_per_category": true,
+        "minimum_images_per_category": 40,
+        "median_images_per_category": 40,
+        "maximum_images_per_category": 40,
+        "total_images": 800
+    },
     "mini_version" : {
         "total_super_categories": 0,
-        "total_categories_mini": 45,
+        "total_categories": 45,
         "uniform_number_of_images_per_category": true,
         "minimum_images_per_category": 40,
         "median_images_per_category": 40,
@@ -39,5 +50,11 @@
     "date_created" : "01 March 2022",
     "contact_name" : "Ihsan Ullah",
     "contact_email" : "meta-album@chalearn.org",
-    "contact_url" : "https://meta-album.github.io/"
+    "contact_url" : "https://meta-album.github.io/",
+    "openml_url" : {
+        "micro" : "https://www.openml.org/d/43935",
+        "mini" : "https://www.openml.org/d/43911",
+        "extended" : ""
+    },
+    "meta-album_set" : 0
 }

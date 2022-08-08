@@ -4,7 +4,7 @@
     "domain_name" : "Human Actions",
     "dataset_id" : "SPT",
     "dataset_name" : "Sports Actions",
-    "dataset_description" : "73 Sports Dataset",
+    "dataset_description" : "100 Sports Dataset",
     "keywords" : "human actions, sports",
     "data_format": "images",
     "image_size": "128x128",
@@ -14,16 +14,27 @@
         "https://creativecommons.org/publicdomain/zero/1.0/"
     ],
     "license_details" : "",
+    "meta-album_license" : "CC0 1.0 Public Domain",
+    "meta-album_license_url" : "https://creativecommons.org/publicdomain/zero/1.0/",
     "source" : "100 Sports Image Classification",
     "source_url" : ["https://www.kaggle.com/gpiosenka/sports-classification"],
-    "original_author": "Gerry",
+    "original_author": "Gerald Piosenka",
     "original_contact" : "https://www.kaggle.com/gpiosenka/contact",
     "citation" : "SPT.bib",
     "meta-album_author": "Jilin He",
     "has_super_categories" : false,
+    "micro_version" : {
+        "total_super_categories": 0,
+        "total_categories": 20,
+        "uniform_number_of_images_per_category": true,
+        "minimum_images_per_category": 40,
+        "median_images_per_category": 40,
+        "maximum_images_per_category": 40,
+        "total_images": 800
+    },
     "mini_version" : {
         "total_super_categories": 0,
-        "total_categories_mini": 73,
+        "total_categories": 73,
         "uniform_number_of_images_per_category": true,
         "minimum_images_per_category": 40,
         "median_images_per_category": 40,
@@ -42,5 +53,11 @@
     "date_created" : "01 March 2022",
     "contact_name" : "Ihsan Ullah",
     "contact_email" : "meta-album@chalearn.org",
-    "contact_url" : "https://meta-album.github.io/"
+    "contact_url" : "https://meta-album.github.io/",
+    "openml_url" : {
+        "micro" : "https://www.openml.org/d/43936",
+        "mini" : "https://www.openml.org/d/43912",
+        "extended" : ""
+    },
+    "meta-album_set" : 0
 }

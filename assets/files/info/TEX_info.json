@@ -14,6 +14,8 @@
         "https://kylberg.org/wp-content/uploads/2020/05/KylbergTextureDocumentation-1.0.pdf"
     ],
     "license_details" : "KTH-TIPS: Email confirmation, Kylberg: Public for research, UIUC: Email confirmation -- cite paper to use dataset",
+    "meta-album_license" : "CC BY-NC 4.0",
+    "meta-album_license_url" : "https://creativecommons.org/licenses/by-nc/4.0/",
     "source" : "KTH-TIPS, Kylberg, UIUC",
     "source_url" : [
         "https://www.csc.kth.se/cvap/databases/kth-tips/index.html", 
@@ -24,9 +26,18 @@
     "citation" : "TEX.bib",
     "meta-album_author": "Ihsan Ullah",
     "has_super_categories" : false,
+    "micro_version" : {
+        "total_super_categories": 0,
+        "total_categories": 20,
+        "uniform_number_of_images_per_category": true,
+        "minimum_images_per_category": 40,
+        "median_images_per_category": 40,
+        "maximum_images_per_category": 40,
+        "total_images": 800
+    },
     "mini_version" : {
         "total_super_categories": 0,
-        "total_categories_mini": 64,
+        "total_categories": 64,
         "uniform_number_of_images_per_category": true,
         "minimum_images_per_category": 40,
         "median_images_per_category": 40,
@@ -45,5 +56,11 @@
     "date_created" : "01 March 2022",
     "contact_name" : "Ihsan Ullah",
     "contact_email" : "meta-album@chalearn.org",
-    "contact_url" : "https://meta-album.github.io/"
+    "contact_url" : "https://meta-album.github.io/",
+    "openml_url" : {
+        "micro" : "https://www.openml.org/d/43937",
+        "mini" : "https://www.openml.org/d/43914",
+        "extended" : ""
+    },
+    "meta-album_set" : 0
 }
