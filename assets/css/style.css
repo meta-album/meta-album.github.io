@@ -1202,3 +1202,9 @@ section {
     padding: 10px 80px 10px !important;
   }
 }
+
+
+.btn-back{
+  margin-top: 10px;
+  margin-left: 10px;
+}
