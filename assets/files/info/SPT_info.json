@@ -55,8 +55,8 @@
     "contact_email" : "meta-album@chalearn.org",
     "contact_url" : "https://meta-album.github.io/",
     "openml_url" : {
-        "micro" : "https://www.openml.org/d/43936",
-        "mini" : "https://www.openml.org/d/43912",
+        "micro" : "https://www.openml.org/d/44240",
+        "mini" : "",
         "extended" : ""
     },
     "meta-album_set" : 0
