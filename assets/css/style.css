@@ -1208,3 +1208,19 @@ section {
   margin-top: 10px;
   margin-left: 10px;
 }
+
+
+.openml_code{
+  font-family: monospace;
+  font-weight: normal;
+  background-color: #f1f1f1;
+  padding: 2px;
+  font-size: 105%;
+  text-align: left;
+}
+.code_comment{
+  color: #1C8907;
+}
+.code_constant{
+  color: #0A9FE2
+}

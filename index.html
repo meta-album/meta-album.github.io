@@ -288,9 +288,7 @@
           </p>
           <p>Visit our GitHub repository for more details.</p>
           <a class="btn btn-lg btn-dark" href="https://github.com/ihsaan-ullah/meta-album" target="_blank"><i class="fa-brands fa-github"></i> Meta-Album GitHub Repository</a>
-          
-          
-          
+
             
         </div>
 
@@ -314,6 +312,32 @@
             <li>Meta Album micro = same as Meta Album mini, but only 20 randomly selected classes.
             </li>
           </ol>
+
+          
+          
+          <h4>Download Instructions</h4>
+          <p>
+            Our datasets are hosted on <a target="_blank" href="https://www.openml.org/"><b><code>OpenML platform</code></b></a>. The following piece of code will help you download the datasets.
+            <br>
+            <a href="https://openml.github.io/openml-python/main/#how-to-get-openml-for-python" target="_blank">Install OpenML for python</a>
+            
+          </p>
+        </div>
+        <div class="row">
+
+          <div class="col-lg-1"></div>
+          <div class="col-lg-10">
+            <pre class="pt-4  bg-light rounded openml_code">
+    <span class="code_comment"># import openml</span>
+    import openml
+
+    <span class="code_comment"># download dataset with DATASET_ID. Check Dataset detail page for DATASET_ID</span>
+    dataset = openml.datasets.get_dataset(<span class="code_constant">DATASET_ID</span>)
+
+    <span class="code_comment"># display dataset info</span>
+    print(dataset.name)
+            </pre>
+          </div>
         </div>
         
         
