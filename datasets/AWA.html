@@ -52,7 +52,7 @@
             <div class="col-lg-2"></div>
             <div class="table-responsive col-lg-8">
                 <table class="table caption-top">
-                  <caption>Last updated: 29 Nov 2022</caption>
+                  <caption>Last updated: 15 Dec 2022</caption>
 
                   <tbody>
                     
@@ -81,8 +81,12 @@
                       <td>Animals with Attributes</td>
                     </tr>
                     <tr>
-                      <th scope="row">Description</th>
+                      <th scope="row">Short Description</th>
                       <td>Mamals dataset for image classification</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Long Description</th>
+                      <td>The original Animals with Attributes 2 (AWA) dataset (https://cvml.ist.ac.at/AwA2/) was designed to benchmark transfer- learning algorithms, in particular attribute base classification and zero-shot learning. It has more than 37 000 images from 50 animals, where each animal corresponds to a class. The images of this dataset were collected from public sources, such as Flickr, in 2016, considering only images licensed for free use and redistribution. Each class can have 100 to 1 645 images with a resolution from 100x100 to 1 893x1 920 px. To preprocess this dataset, we cropped the images from either side to make them square. In case an image has a resolution lower than 128 px, the squared images are done by either duplicating the top and bottom-most 3 rows or the left and right most 3 columns based on the orientation of the original image. Lastly, the square images are resized into 128x128 px using an anti-aliasing filter.</td>
                     </tr>
                     <tr>
                       <th scope="row"># Classes</th>
@@ -255,6 +259,33 @@
               </table>
             </div>
           </div>
+
+
+          <!-- Download Code Title -->
+          <div class="row mt-5">
+            <div class="col-lg-2"></div>
+            <div class="col-lg-6">
+              <h3>Code to download dataset using OpenML API</h3>
+            </div>
+          </div>
+
+          <!-- Download Sample Code -->
+          <div class="row">
+
+            <div class="col-lg-2"></div>
+            <div class="col-lg-8">
+              <pre class="pt-4  bg-light rounded openml_code">
+      <span class="code_comment"># import openml</span>
+      import openml
+  
+      <span class="code_comment"># download dataset with DATASET_ID. DATASET_ID is OpenML ID</span>
+      dataset = openml.datasets.get_dataset(<span class="code_constant">DATASET_ID</span>)
+  
+      <span class="code_comment"># display dataset info</span>
+      print(dataset.name)
+              </pre>
+            </div>
+          </div>
           
 
 
@@ -264,12 +295,10 @@
             <div class="col-lg-6">
               <h3>Sample Images</h3>
             </div>
-            
           </div>
 
           <!-- Thumbnai -->
           <div class="row">
-
             <div class="col-lg-2"></div>
             <div class="col-lg-4 col-md-6 align-items-stretch mt-4 mt-lg-0">
               <img src="../assets/img/samples/AWA.png"  class="img-fluid">
@@ -281,14 +310,12 @@
           <div class="row mt-5">
             <div class="col-lg-2"></div>
             <div class="col-lg-6">
-              <h3>Citation </h3>
+              <h3>Cite this dataset </h3>
             </div>
-            
           </div>
 
           <!-- Citation -->
           <div class="row">
-
             <div class="col-lg-2"></div>
             <div class="col-lg-8">
               <pre class="pt-4  bg-light rounded">
@@ -306,10 +333,35 @@
               </pre>
             <a class="btn btn-outline-dark" target="_blank" href="../assets/files/bib/AWA.bib" download="AWA.bib"><i class="fa-solid fa-file-arrow-down"></i> Download as bib</a>
             </div>
-            
-  
-    
           </div>
+
+
+          <!-- Citation Meta Album Title -->
+          <div class="row mt-5">
+            <div class="col-lg-2"></div>
+            <div class="col-lg-6">
+              <h3>Cite Meta-Album</h3>
+            </div>
+          </div>
+
+          <!-- Citation Meta Album -->
+          <div class="row">
+            <div class="col-lg-2"></div>
+            <div class="col-lg-8">
+              <pre class="pt-4  bg-light rounded">
+  @inproceedings{meta-album-2022,
+    title={Meta-Album: Multi-domain Meta-Dataset for Few-Shot Image Classification},
+    author={Ullah, Ihsan and Carrion, Dustin and Escalera, Sergio and Guyon, Isabelle M and Huisman, Mike and Mohr, Felix and van Rijn, Jan N and Sun, Haozhe and Vanschoren, Joaquin and Vu, Phan Anh},
+    booktitle={Thirty-sixth Conference on Neural Information Processing Systems Datasets and Benchmarks Track},
+    url = {https://meta-album.github.io/},
+    year = {2022}
+  }
+              </pre>
+            <a class="btn btn-outline-dark" target="_blank" href="../assets/files/meta-album.bib" download="meta-album.bib"><i class="fa-solid fa-file-arrow-down"></i> Download as bib</a>
+            </div>
+          </div>
+
+
   
           
           

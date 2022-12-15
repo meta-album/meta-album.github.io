@@ -52,7 +52,7 @@
             <div class="col-lg-2"></div>
             <div class="table-responsive col-lg-8">
                 <table class="table caption-top">
-                  <caption>Last updated: 29 Nov 2022</caption>
+                  <caption>Last updated: 15 Dec 2022</caption>
 
                   <tbody>
                     
@@ -81,8 +81,12 @@
                       <td>Medicinal Leaf</td>
                     </tr>
                     <tr>
-                      <th scope="row">Description</th>
+                      <th scope="row">Short Description</th>
                       <td>Healthy Medicinal Leaf</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Long Description</th>
+                      <td>The Medicinal Leaf Database(https://data.mendeley.com/datasets/nnytj2v3n5/1) gathers 30 species of healthy and mature medicinal herbs. The leaves are plucked from different plants of the same species, then placed on a white uniform background. There are around 1 800 images in total, captured with a mobile phone camera. The original resolution is 1 600x1 200 px. We create Medleaf for Meta-Album by cropping them at the center and resize to 128x128 px.</td>
                     </tr>
                     <tr>
                       <th scope="row"># Classes</th>
@@ -257,6 +261,33 @@
               </table>
             </div>
           </div>
+
+
+          <!-- Download Code Title -->
+          <div class="row mt-5">
+            <div class="col-lg-2"></div>
+            <div class="col-lg-6">
+              <h3>Code to download dataset using OpenML API</h3>
+            </div>
+          </div>
+
+          <!-- Download Sample Code -->
+          <div class="row">
+
+            <div class="col-lg-2"></div>
+            <div class="col-lg-8">
+              <pre class="pt-4  bg-light rounded openml_code">
+      <span class="code_comment"># import openml</span>
+      import openml
+  
+      <span class="code_comment"># download dataset with DATASET_ID. DATASET_ID is OpenML ID</span>
+      dataset = openml.datasets.get_dataset(<span class="code_constant">DATASET_ID</span>)
+  
+      <span class="code_comment"># display dataset info</span>
+      print(dataset.name)
+              </pre>
+            </div>
+          </div>
           
 
 
@@ -266,12 +297,10 @@
             <div class="col-lg-6">
               <h3>Sample Images</h3>
             </div>
-            
           </div>
 
           <!-- Thumbnai -->
           <div class="row">
-
             <div class="col-lg-2"></div>
             <div class="col-lg-4 col-md-6 align-items-stretch mt-4 mt-lg-0">
               <img src="../assets/img/samples/MED_LF.png"  class="img-fluid">
@@ -283,14 +312,12 @@
           <div class="row mt-5">
             <div class="col-lg-2"></div>
             <div class="col-lg-6">
-              <h3>Citation </h3>
+              <h3>Cite this dataset </h3>
             </div>
-            
           </div>
 
           <!-- Citation -->
           <div class="row">
-
             <div class="col-lg-2"></div>
             <div class="col-lg-8">
               <pre class="pt-4  bg-light rounded">
@@ -307,10 +334,35 @@
               </pre>
             <a class="btn btn-outline-dark" target="_blank" href="../assets/files/bib/MED_LF.bib" download="MED_LF.bib"><i class="fa-solid fa-file-arrow-down"></i> Download as bib</a>
             </div>
-            
-  
-    
           </div>
+
+
+          <!-- Citation Meta Album Title -->
+          <div class="row mt-5">
+            <div class="col-lg-2"></div>
+            <div class="col-lg-6">
+              <h3>Cite Meta-Album</h3>
+            </div>
+          </div>
+
+          <!-- Citation Meta Album -->
+          <div class="row">
+            <div class="col-lg-2"></div>
+            <div class="col-lg-8">
+              <pre class="pt-4  bg-light rounded">
+  @inproceedings{meta-album-2022,
+    title={Meta-Album: Multi-domain Meta-Dataset for Few-Shot Image Classification},
+    author={Ullah, Ihsan and Carrion, Dustin and Escalera, Sergio and Guyon, Isabelle M and Huisman, Mike and Mohr, Felix and van Rijn, Jan N and Sun, Haozhe and Vanschoren, Joaquin and Vu, Phan Anh},
+    booktitle={Thirty-sixth Conference on Neural Information Processing Systems Datasets and Benchmarks Track},
+    url = {https://meta-album.github.io/},
+    year = {2022}
+  }
+              </pre>
+            <a class="btn btn-outline-dark" target="_blank" href="../assets/files/meta-album.bib" download="meta-album.bib"><i class="fa-solid fa-file-arrow-down"></i> Download as bib</a>
+            </div>
+          </div>
+
+
   
           
           

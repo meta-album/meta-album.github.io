@@ -52,7 +52,7 @@
             <div class="col-lg-2"></div>
             <div class="table-responsive col-lg-8">
                 <table class="table caption-top">
-                  <caption>Last updated: 29 Nov 2022</caption>
+                  <caption>Last updated: 15 Dec 2022</caption>
 
                   <tbody>
                     
@@ -81,8 +81,12 @@
                       <td>Birds</td>
                     </tr>
                     <tr>
-                      <th scope="row">Description</th>
+                      <th scope="row">Short Description</th>
                       <td>Birds dataset for image classification</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Long Description</th>
+                      <td>When Meta-Album was created, the Birds dataset(https://www.kaggle.com/datasets/gpiosenka/100-bird-species) contained images of 315 bird species, but now it has increased the number of species to 450. It has more than 49 000 images, each with a resolution of 224x224 px. All the images have their natural background, which can lead to bias since, for example, some birds are frequently found in water backgrounds. Additionally, the dataset is imbalanced regarding the ratio of male species images to female species images. The preprocessed version distributed in Meta-Album is made from the original dataset by resizing all the images to a resolution of 128x128 px using an anti-aliasing filter.</td>
                     </tr>
                     <tr>
                       <th scope="row"># Classes</th>
@@ -257,6 +261,33 @@
               </table>
             </div>
           </div>
+
+
+          <!-- Download Code Title -->
+          <div class="row mt-5">
+            <div class="col-lg-2"></div>
+            <div class="col-lg-6">
+              <h3>Code to download dataset using OpenML API</h3>
+            </div>
+          </div>
+
+          <!-- Download Sample Code -->
+          <div class="row">
+
+            <div class="col-lg-2"></div>
+            <div class="col-lg-8">
+              <pre class="pt-4  bg-light rounded openml_code">
+      <span class="code_comment"># import openml</span>
+      import openml
+  
+      <span class="code_comment"># download dataset with DATASET_ID. DATASET_ID is OpenML ID</span>
+      dataset = openml.datasets.get_dataset(<span class="code_constant">DATASET_ID</span>)
+  
+      <span class="code_comment"># display dataset info</span>
+      print(dataset.name)
+              </pre>
+            </div>
+          </div>
           
 
 
@@ -266,12 +297,10 @@
             <div class="col-lg-6">
               <h3>Sample Images</h3>
             </div>
-            
           </div>
 
           <!-- Thumbnai -->
           <div class="row">
-
             <div class="col-lg-2"></div>
             <div class="col-lg-4 col-md-6 align-items-stretch mt-4 mt-lg-0">
               <img src="../assets/img/samples/BRD.png"  class="img-fluid">
@@ -283,14 +312,12 @@
           <div class="row mt-5">
             <div class="col-lg-2"></div>
             <div class="col-lg-6">
-              <h3>Citation </h3>
+              <h3>Cite this dataset </h3>
             </div>
-            
           </div>
 
           <!-- Citation -->
           <div class="row">
-
             <div class="col-lg-2"></div>
             <div class="col-lg-8">
               <pre class="pt-4  bg-light rounded">
@@ -303,10 +330,35 @@
               </pre>
             <a class="btn btn-outline-dark" target="_blank" href="../assets/files/bib/BRD.bib" download="BRD.bib"><i class="fa-solid fa-file-arrow-down"></i> Download as bib</a>
             </div>
-            
-  
-    
           </div>
+
+
+          <!-- Citation Meta Album Title -->
+          <div class="row mt-5">
+            <div class="col-lg-2"></div>
+            <div class="col-lg-6">
+              <h3>Cite Meta-Album</h3>
+            </div>
+          </div>
+
+          <!-- Citation Meta Album -->
+          <div class="row">
+            <div class="col-lg-2"></div>
+            <div class="col-lg-8">
+              <pre class="pt-4  bg-light rounded">
+  @inproceedings{meta-album-2022,
+    title={Meta-Album: Multi-domain Meta-Dataset for Few-Shot Image Classification},
+    author={Ullah, Ihsan and Carrion, Dustin and Escalera, Sergio and Guyon, Isabelle M and Huisman, Mike and Mohr, Felix and van Rijn, Jan N and Sun, Haozhe and Vanschoren, Joaquin and Vu, Phan Anh},
+    booktitle={Thirty-sixth Conference on Neural Information Processing Systems Datasets and Benchmarks Track},
+    url = {https://meta-album.github.io/},
+    year = {2022}
+  }
+              </pre>
+            <a class="btn btn-outline-dark" target="_blank" href="../assets/files/meta-album.bib" download="meta-album.bib"><i class="fa-solid fa-file-arrow-down"></i> Download as bib</a>
+            </div>
+          </div>
+
+
   
           
           

@@ -52,7 +52,7 @@
             <div class="col-lg-2"></div>
             <div class="table-responsive col-lg-8">
                 <table class="table caption-top">
-                  <caption>Last updated: 29 Nov 2022</caption>
+                  <caption>Last updated: 15 Dec 2022</caption>
 
                   <tbody>
                     
@@ -81,8 +81,12 @@
                       <td>Plankton</td>
                     </tr>
                     <tr>
-                      <th scope="row">Description</th>
+                      <th scope="row">Short Description</th>
                       <td>Plankton dataset from WHOI</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Long Description</th>
+                      <td>The Plankton dataset is created by researchers at the Woods Hole Oceanographic Institution (https://www.whoi.edu/). Imaging FlowCytobot (IFCB) was used for the data collection. The Complete process and mechanism are described in the paper [31]. Each image in the dataset contains one or multiple planktons. The images are captured in a controlled environment and have different orientations based on the flow of the fluid in which the images are captured and the size and shape of the planktons. The preprocessed plankton dataset is prepared from the original WHOI Plankton dataset. The preprocessing of the images is done by creating a background squared image by either duplicating the top and bottom-most 3 rows or the left and right most 3 columns based on the orientation of the original image to match the width or height of the image respectively. A Gaussian kernal of size 29x29 is applied to the background image to blur the image. Finally, the original plankton image is pasted on the background image at the center of the image. The squared background image with the original plankton image on top of it as one image is then resized into 128x128 with anti-aliasing.</td>
                     </tr>
                     <tr>
                       <th scope="row"># Classes</th>
@@ -255,6 +259,33 @@
               </table>
             </div>
           </div>
+
+
+          <!-- Download Code Title -->
+          <div class="row mt-5">
+            <div class="col-lg-2"></div>
+            <div class="col-lg-6">
+              <h3>Code to download dataset using OpenML API</h3>
+            </div>
+          </div>
+
+          <!-- Download Sample Code -->
+          <div class="row">
+
+            <div class="col-lg-2"></div>
+            <div class="col-lg-8">
+              <pre class="pt-4  bg-light rounded openml_code">
+      <span class="code_comment"># import openml</span>
+      import openml
+  
+      <span class="code_comment"># download dataset with DATASET_ID. DATASET_ID is OpenML ID</span>
+      dataset = openml.datasets.get_dataset(<span class="code_constant">DATASET_ID</span>)
+  
+      <span class="code_comment"># display dataset info</span>
+      print(dataset.name)
+              </pre>
+            </div>
+          </div>
           
 
 
@@ -264,12 +295,10 @@
             <div class="col-lg-6">
               <h3>Sample Images</h3>
             </div>
-            
           </div>
 
           <!-- Thumbnai -->
           <div class="row">
-
             <div class="col-lg-2"></div>
             <div class="col-lg-4 col-md-6 align-items-stretch mt-4 mt-lg-0">
               <img src="../assets/img/samples/PLK.png"  class="img-fluid">
@@ -281,14 +310,12 @@
           <div class="row mt-5">
             <div class="col-lg-2"></div>
             <div class="col-lg-6">
-              <h3>Citation </h3>
+              <h3>Cite this dataset </h3>
             </div>
-            
           </div>
 
           <!-- Citation -->
           <div class="row">
-
             <div class="col-lg-2"></div>
             <div class="col-lg-8">
               <pre class="pt-4  bg-light rounded">
@@ -302,10 +329,35 @@
               </pre>
             <a class="btn btn-outline-dark" target="_blank" href="../assets/files/bib/PLK.bib" download="PLK.bib"><i class="fa-solid fa-file-arrow-down"></i> Download as bib</a>
             </div>
-            
-  
-    
           </div>
+
+
+          <!-- Citation Meta Album Title -->
+          <div class="row mt-5">
+            <div class="col-lg-2"></div>
+            <div class="col-lg-6">
+              <h3>Cite Meta-Album</h3>
+            </div>
+          </div>
+
+          <!-- Citation Meta Album -->
+          <div class="row">
+            <div class="col-lg-2"></div>
+            <div class="col-lg-8">
+              <pre class="pt-4  bg-light rounded">
+  @inproceedings{meta-album-2022,
+    title={Meta-Album: Multi-domain Meta-Dataset for Few-Shot Image Classification},
+    author={Ullah, Ihsan and Carrion, Dustin and Escalera, Sergio and Guyon, Isabelle M and Huisman, Mike and Mohr, Felix and van Rijn, Jan N and Sun, Haozhe and Vanschoren, Joaquin and Vu, Phan Anh},
+    booktitle={Thirty-sixth Conference on Neural Information Processing Systems Datasets and Benchmarks Track},
+    url = {https://meta-album.github.io/},
+    year = {2022}
+  }
+              </pre>
+            <a class="btn btn-outline-dark" target="_blank" href="../assets/files/meta-album.bib" download="meta-album.bib"><i class="fa-solid fa-file-arrow-down"></i> Download as bib</a>
+            </div>
+          </div>
+
+
   
           
           
