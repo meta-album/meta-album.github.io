@@ -204,10 +204,27 @@
     import openml
 
     <span class="code_comment"># download dataset with DATASET_ID. Check Dataset detail page for DATASET_ID</span>
-    dataset = openml.datasets.get_dataset(<span class="code_constant">DATASET_ID</span>)
+    dataset = openml.datasets.get_dataset(<span class="code_constant_blue">DATASET_ID</span>, download_data=<span class="code_constant_red">True</span>, download_all_files=<span class="code_constant_red">True</span>)
 
     <span class="code_comment"># display dataset info</span>
     print(dataset.name)
+            </pre>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-1"></div>
+          <div class="col-lg-10">
+            <p> Datasets are downloaded in openml cache directory. You can check it with this code:</p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-1"></div>
+          <div class="col-lg-10">
+            <pre class="pt-4  bg-light rounded openml_code">
+    <span class="code_comment"># display openml cache directory</span>
+    print(openml.config.cache_directory)
             </pre>
           </div>
         </div>

@@ -1221,6 +1221,9 @@ section {
 .code_comment{
   color: #1C8907;
 }
-.code_constant{
+.code_constant_blue{
   color: #0A9FE2
+}
+.code_constant_red{
+  color: #e2350a
 }
